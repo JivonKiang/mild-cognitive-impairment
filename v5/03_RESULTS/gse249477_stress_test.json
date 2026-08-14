@@ -1,0 +1,38 @@
+{
+  "status": "PARTIAL_EXTERNAL_SENSITIVITY",
+  "dataset": "GSE249477",
+  "assay": "blood bulk RNA-seq",
+  "role": "cross-platform stress test only",
+  "sample_count_all_labels": 62,
+  "hc_n": 21,
+  "mci_n": 20,
+  "ad_n_excluded": 21,
+  "present_locked_symbols": [
+    "GPI",
+    "VAT1",
+    "EIF3B",
+    "UCP2",
+    "C22ORF39",
+    "USP38",
+    "ZSWIM6",
+    "PRDM10",
+    "RP2",
+    "GCA"
+  ],
+  "missing_locked_symbols": [
+    "PHF15",
+    "LAT1-3TM"
+  ],
+  "exact_mapping": false,
+  "preprocessing": "log2(TPM+1), gene-wise standardization across all 62 labelled samples before endpoint restriction, locked signed score",
+  "preprocessing_all_label_samples": 62,
+  "target_labels_used_for_preprocessing": false,
+  "auc_mci_vs_hc": 0.4095238095238095,
+  "auc_ci_low": 0.2401720377146074,
+  "auc_ci_high": 0.5881057758031442,
+  "score_contrast_mean_mci_minus_hc": -1.4591207579392456,
+  "source_hashes": {
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse249477_task9\\GSE249477_raw_count_normalize_04-10-2025.csv.gz": "4f8e0f8b75ebe4ec8aee6d88ce8e0a5a48f179f5fe7cb5981aafcae8701945cb",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse249477_task9\\GSE249477_series_matrix.txt.gz": "b7f5370b1c2665b53c821405cd0bbd6fafd82a2b4f0c899d7ce1ae03cda7fc03"
+  }
+}

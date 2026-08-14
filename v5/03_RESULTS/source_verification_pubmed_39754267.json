@@ -1,0 +1,154 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "39754267"
+    ],
+    "39754267": {
+      "uid": "39754267",
+      "pubdate": "2025 Jan 3",
+      "epubdate": "2025 Jan 3",
+      "source": "Alzheimers Res Ther",
+      "authors": [
+        {
+          "name": "Huang YL",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tsai TH",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shen ZQ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chan YH",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tu CW",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tung CY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wang PN",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tsai TF",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Tsai TF",
+      "title": "Transcriptomic predictors of rapid progression from mild cognitive impairment to Alzheimer's disease.",
+      "sorttitle": "transcriptomic predictors of rapid progression from mild cognitive impairment to alzheimer s disease",
+      "volume": "17",
+      "issue": "1",
+      "pages": "3",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101511643",
+      "issn": "",
+      "essn": "1758-9193",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "39754267"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC11697870"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC11697870;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1186/s13195-024-01651-0"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1186/s13195-024-01651-0"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2024/09/27 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2024/12/17 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2025/01/07 00:21"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2025/01/04 20:07"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2025/01/04 00:01"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2025/01/03 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 37,
+      "fulljournalname": "Alzheimer's research & therapy",
+      "elocationid": "doi: 10.1186/s13195-024-01651-0",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2025/01/03 00:00",
+      "sortfirstauthor": "Huang YL",
+      "vernaculartitle": ""
+    }
+  }
+}

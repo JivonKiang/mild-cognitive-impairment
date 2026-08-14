@@ -1,0 +1,4 @@
+stratum,source_n,external_n,auc,balanced_accuracy,analysis_role,disease_labels_used_for_domain_fit,disease_labels_used_for_stratum_definition
+HC,139,249,1.0,1.0,post hoc phenotype-stratified domain sensitivity,False,True
+MCI,69,134,1.0,1.0,post hoc phenotype-stratified domain sensitivity,False,True
+AD,89,204,1.0,1.0,post hoc phenotype-stratified domain sensitivity,False,True

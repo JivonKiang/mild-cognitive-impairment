@@ -1,0 +1,27 @@
+{
+  "candidate_universe_count": 95,
+  "claim_boundary": "development-only archived replay; not independent discovery, not external validation, not clinical biomarker validation, and not a reconstruction of the original raw preprocessing lineage",
+  "development_consistent_candidate_count": 83,
+  "gse249477_used_for_selection": false,
+  "reconstructed_order_matches_archived_locked_panel": true,
+  "reconstructed_symbols_match_current_provenance_ledger": true,
+  "selected_counts_by_trajectory": {
+    "MCI_peak": 6,
+    "MCI_trough": 6
+  },
+  "selection_rule": "from strict MCI-centered candidate registry, require direction agreement in GSE63060 and GSE63061; rank each trajectory by minimum absolute age/sex-adjusted effect across both development cohorts; retain six MCI-peak and six MCI-trough genes",
+  "selection_scope": "GSE63060_and_GSE63061_development_only",
+  "source_hashes": {
+    "E:\\20241004_MCI\\20260709\\mci_centered_panel_compression_20260722_144351\\bootstrap_gene_stability.csv": "a7b2f3069374d82f6cf84c22463cdd0ceb5dea05ae892c9992001939f1b9fcfa",
+    "E:\\20241004_MCI\\20260709\\mci_centered_panel_compression_20260722_144351\\provisional_panels_by_size.csv": "cf04b0da057462a1785419905ec1df37cf1691e376bbb64dd304112bd8e0d70a",
+    "E:\\20241004_MCI\\20260709\\mci_centered_score_denovo_20260722_140059\\mci_centered_candidate_registry_weighted.csv": "63d96a9b1d2afea67fe53309a6f480c3cc4724a726aec5ae39ca6ba6c755e0db",
+    "E:\\20241004_MCI\\20260709\\mci_development_optimized_panel_20260722_161919\\development_gene_consistency.csv": "1de092a4079002658f44e193368b8d3c7ba87db03da029fbb0dbb00ffc0c2ef1",
+    "E:\\20241004_MCI\\20260709\\mci_development_optimized_panel_20260722_161919\\development_locked_12_gene_panel.csv": "697d1332afc7c8c8638e8fe75f1a5a506f0042e11604a768a7f1386b0983da13",
+    "E:\\20241004_MCI\\20260709\\mci_development_optimized_panel_20260722_161919\\development_locked_12_mapping_audit.csv": "fa055731fdd96fac86e24d08ca676b36b9b43521003f5ccd7a956a2f179ee210",
+    "E:\\20241004_MCI\\20260709\\mci_development_optimized_panel_20260722_161919\\optimization_QA_notes.txt": "3e4bd6044da661f38e3fd50963d4d0b7cc8030886a3421f80d6ca2d7091f23b4",
+    "E:\\20241004_MCI\\20260730_Molecular_Neurobiology\\05_Data_and_Code\\code\\compress_mci_centered_panel_20260722.R": "33137ca4f5a2bcc8bef2013e1dbea41edd77114c4c08d6042772db5b14f14113",
+    "E:\\20241004_MCI\\20260730_Molecular_Neurobiology\\05_Data_and_Code\\code\\optimize_mci_development_panel_20260722_161919.py": "598b4e1754742a6f69ad3dcd1b52b0fa5614673bae884b09cd95fa8ec8e2dc74",
+    "E:\\20260805 Biomni\\MCI_PUBLIC_RELIABILITY_20260812_V5\\03_RESULTS\\panel_provenance_ledger.csv": "19afaad04b883d31c5d336301dda0967b2d083277d479457946c87a5ad301d71"
+  },
+  "status": "ARCHIVED_LOCKED12_DEVELOPMENT_SELECTION_REPLAY_VERIFIED"
+}

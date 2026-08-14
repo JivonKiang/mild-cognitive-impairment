@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-title: "MCI blood transcriptomics reproducibility"
-message: "Please cite this repository when reusing the code or aggregate results, and cite the associated BMC Genomics article once its final DOI is available. See CITATION.md for the current citation guidance."
+title: "Mild cognitive impairment: public blood transcriptomics"
+message: "Please cite this repository when reusing the code or aggregate results. See CITATION.md for versioned release guidance."
 type: software
 license: MIT
 authors:
@@ -26,9 +26,9 @@ authors:
   - family-names: Dong
     given-names: Jing
     orcid: "https://orcid.org/0000-0000-9490-1464"
-repository-code: "https://github.com/JivonKiang/mci-bmc-genomics-reproducibility"
-url: "https://github.com/JivonKiang/mci-bmc-genomics-reproducibility"
-date-released: 2026-08-03
+repository-code: "https://github.com/JivonKiang/mild-cognitive-impairment"
+url: "https://github.com/JivonKiang/mild-cognitive-impairment"
+date-released: 2026-08-14
 keywords:
   - mild cognitive impairment
   - Alzheimer disease

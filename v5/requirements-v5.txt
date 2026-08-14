@@ -1,0 +1,10 @@
+# Direct runtime dependencies observed in the verified V5 execution environment.
+# This file is intentionally limited to packages imported by 02_ANALYSIS/ and
+# 99_QA/; it is not a cross-platform binary-distribution lockfile.
+matplotlib==3.10.8
+numpy==2.2.6
+pandas==2.3.3
+Pillow==12.2.0
+scikit-learn==1.7.2
+scipy==1.15.3
+statsmodels==0.14.6

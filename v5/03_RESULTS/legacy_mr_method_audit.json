@@ -1,0 +1,33 @@
+{
+  "analysis_role": "supplementary code-and-provenance exclusion audit",
+  "claim_boundary": "The inherited cis-eQTL-to-AD MR and colocalization outputs are excluded from causal, MCI-stage, biomarker and target-validation interpretation. The audit does not judge correctly implemented MR or colocalization methods.",
+  "code_fingerprints": {
+    "coloc_globally_deduplicates_eqtls": true,
+    "mr_sets_se_to_one": true,
+    "mr_targets_ad_outcome": true,
+    "mr_uses_distance_clumping": true,
+    "mr_uses_z_as_beta": true
+  },
+  "legacy_output_summary": {
+    "colocalization_rows": 63,
+    "fdr_lt_005_genes": [
+      "DOK3",
+      "ITGAX",
+      "KCNN4",
+      "SLC24A4",
+      "SNRPD2"
+    ],
+    "maximum_pp_h4": 0.202481798376308,
+    "mr_genes": 70,
+    "mr_rows": 85,
+    "pp_h4_ge_05_count": 0
+  },
+  "online_method_source_status": "PENDING_ONLINE_METHOD_SOURCE_VERIFICATION_NETWORK_UNAVAILABLE_2026-08-14",
+  "source_files": {
+    "E:\\20260805 Biomni\\MCI\\runs\\Biomni_lab_downloads_20260810_012752\\mci_paper\\results_tables\\mr_colocalization.csv": "0bacd99f8ef2535efd4fd77c5e049701ea6feeae10ef948a3c6d966fa33c2eea",
+    "E:\\20260805 Biomni\\MCI\\runs\\Biomni_lab_downloads_20260810_012752\\mci_paper\\results_tables\\mr_results_cis_eqtl.csv": "d19c53900371ef48a1a6a3f297a07ab9377771d7c1317cd082e958aa0dda76b1",
+    "E:\\20260805 Biomni\\MCI\\runs\\Biomni_lab_downloads_20260810_012752\\mci_paper\\scripts\\21_mendelian_randomization.R": "772ca767681567d4be03e989da0340f50169e66262e2d01179b6e6584382d006",
+    "E:\\20260805 Biomni\\MCI\\runs\\Biomni_lab_downloads_20260810_012752\\mci_paper\\scripts\\21b_colocalization.R": "6568edb6be74d1c9439cf72156fc2dd0f3698f242a97ceb4a307c6ebf2563904"
+  },
+  "status": "EXCLUDED_FROM_CAUSAL_INTERPRETATION_LEGACY_METHOD_AUDIT"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "METADATA_ONLY_NEUTROPHIL_CONTEXT_AUDIT",
+  "accessions": [
+    "GSE243743",
+    "GSE243744",
+    "GSE243745"
+  ],
+  "pairwise_gsm_overlap": {
+    "GSE243743_GSE243744": 0,
+    "GSE243743_GSE243745": 0,
+    "GSE243744_GSE243745": 0
+  },
+  "subject_identifier_status": "NOT_AVAILABLE_IN_OFFICIAL_SERIES_MATRIX_METADATA",
+  "subject_independence_established": false,
+  "expression_loaded": false,
+  "predictive_model_fitting": false,
+  "claim_boundary": "Purified-neutrophil, APOE/sex/selection-restricted metadata context only; not whole-blood validation, independent replication, pooled analysis, or causal mechanism."
+}

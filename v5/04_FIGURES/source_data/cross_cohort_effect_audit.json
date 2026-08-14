@@ -1,0 +1,109 @@
+{
+  "allowed_claim": "This audit describes observed gene-effect concordance or discordance in the locked shared gene universe.",
+  "analysis_type": "nonpredictive_descriptive_effect_concordance",
+  "cohort_endpoint_counts": {
+    "GSE140829": {
+      "hc_rows": 249,
+      "mci_rows": 134,
+      "sample_rows": 383
+    },
+    "GSE249477": {
+      "hc_rows": 21,
+      "mci_rows": 20,
+      "sample_rows": 41
+    },
+    "GSE63060": {
+      "hc_rows": 67,
+      "mci_rows": 39,
+      "sample_rows": 106
+    },
+    "GSE63061": {
+      "hc_rows": 72,
+      "mci_rows": 30,
+      "sample_rows": 102
+    }
+  },
+  "cohort_order": [
+    "GSE63060",
+    "GSE63061",
+    "GSE140829",
+    "GSE249477"
+  ],
+  "development_heterogeneity_scope": "GSE63060_and_GSE63061_only; two-study descriptive Q and I-squared",
+  "endpoint": "MCI_minus_HC",
+  "external_labels_used_for_calibration_thresholding_or_adaptation": false,
+  "external_labels_used_for_feature_selection": false,
+  "external_labels_used_for_mapping": false,
+  "external_labels_used_for_model_fitting": false,
+  "external_labels_used_for_normalization": false,
+  "external_labels_used_only_for_independent_cohort_effect_assessment": true,
+  "forbidden_claim": "This audit proves a biological mechanism, blood-cell causality, a clinically useful biomarker, or successful transportability.",
+  "gse140829_assessment_metadata_audit": {
+    "label_counts": {
+      "AD": 204,
+      "HC": 249,
+      "MCI": 134
+    },
+    "locked_symbols_present": [
+      "GPI",
+      "VAT1",
+      "EIF3B",
+      "UCP2",
+      "C22ORF39",
+      "USP38",
+      "PRDM10",
+      "RP2",
+      "GCA"
+    ],
+    "mapped_gene_count": 11575,
+    "missing_locked_symbols": [
+      "PHF15",
+      "LAT1-3TM",
+      "ZSWIM6"
+    ],
+    "platform_probe_count": 47320,
+    "retained_sample_count": 587,
+    "series_sample_count": 587
+  },
+  "gse140829_excluded_from_pooled_inference": true,
+  "gse140829_subject_independence_resolved": false,
+  "gse140829_unlabelled_expression_audit": {
+    "disease_metadata_read_before_prediction": false,
+    "mapped_requested_gene_count": 13382,
+    "series_sample_count": 587
+  },
+  "gse249477_unlabelled_expression_audit": {
+    "series_titles_read_before_shared_universe": false,
+    "target_duplicate_gene_rows_collapsed": 1,
+    "target_gene_count_after_exact_symbol_median_collapse": 21491,
+    "target_tpm_columns": 62,
+    "unique_tpm_ids": 62
+  },
+  "method_reference": {
+    "accessed": "2026-08-13",
+    "citation": "Higgins et al., BMJ 2003;327:557",
+    "doi": "10.1136/bmj.327.7414.557",
+    "pmid": "12958120",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12958120/"
+  },
+  "no_cross_cohort_heterogeneity_p_value": true,
+  "no_pooled_four_cohort_effect": true,
+  "official_source_urls": {
+    "GSE140829": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE140829",
+    "GSE249477": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE249477"
+  },
+  "shared_exact_case_canonicalized_gene_count": 11575,
+  "shared_universe_built_before_external_diagnosis_labels": true,
+  "source_hashes": {
+    "GPL15988_full.txt": "6b270524044cb432724c50092c0b87cdc6fa6564b50a13aa6b27ae134fdacf03",
+    "GSE140829_series_matrix.fresh.txt.gz": "be4f08a2cb01fe912a764df66fd654dec70d9e1ecd36bded00b675b27e7f83f3",
+    "GSE249477_raw_count_normalize_04-10-2025.csv.gz": "4f8e0f8b75ebe4ec8aee6d88ce8e0a5a48f179f5fe7cb5981aafcae8701945cb",
+    "GSE249477_series_matrix.txt.gz": "b7f5370b1c2665b53c821405cd0bbd6fafd82a2b4f0c899d7ce1ae03cda7fc03",
+    "GSE63060_data_matrix.csv": "40278d7bcc2790f5b79eb482419f27a17fb14e8ed61442ee2101cb76754dd646",
+    "GSE63060_official_sample_labels.csv": "dd0d0d192487f49937eb44225844866ed2a676b8803e5aa9a4f24003febd0d28",
+    "GSE63061_data_matrix.csv": "d4bb6df9c567cec4a453deaf51f3e55ef17ceb318dc493c4e99ce909e965eab0",
+    "GSE63061_official_sample_labels.csv": "978f52abc58db7d5889e0949af66ece88619e28f86a273b57a83669c812b9725",
+    "run_cross_cohort_effect_heterogeneity.py": "da163ad9c08bc89f99c66ddf3e9253a46712892a4c9acdbef13be60b6a4af1b7"
+  },
+  "status": "CROSS_COHORT_EFFECT_HETEROGENEITY_AUDIT"
+}

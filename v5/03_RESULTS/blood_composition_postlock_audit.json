@@ -1,0 +1,210 @@
+{
+  "absolute_proportions_reported": false,
+  "cohort_audit": {
+    "GSE140829": {
+      "all_locked_score_rows": 587,
+      "endpoint_rows": 383,
+      "label_counts_endpoint": {
+        "HC": 249,
+        "MCI": 134
+      }
+    },
+    "GSE249477": {
+      "all_locked_score_rows": 62,
+      "endpoint_rows": 41,
+      "label_counts_endpoint": {
+        "HC": 21,
+        "MCI": 20
+      }
+    },
+    "GSE63060": {
+      "all_locked_score_rows": 329,
+      "endpoint_rows": 106,
+      "label_counts_endpoint": {
+        "HC": 67,
+        "MCI": 39
+      }
+    },
+    "GSE63061": {
+      "all_locked_score_rows": 388,
+      "endpoint_rows": 102,
+      "label_counts_endpoint": {
+        "HC": 72,
+        "MCI": 30
+      }
+    }
+  },
+  "cross_cohort_direction_metrics": [
+    {
+      "available_effect_count": 4,
+      "cell_score": "B lineage",
+      "direction_balance_mci_minus_hc": 2,
+      "direction_concordance": "mixed_direction_or_null",
+      "hc_higher_count": 1,
+      "mci_higher_count": 3,
+      "no_mean_difference_count": 0
+    },
+    {
+      "available_effect_count": 4,
+      "cell_score": "CD8 T cells",
+      "direction_balance_mci_minus_hc": -2,
+      "direction_concordance": "mixed_direction_or_null",
+      "hc_higher_count": 3,
+      "mci_higher_count": 1,
+      "no_mean_difference_count": 0
+    },
+    {
+      "available_effect_count": 4,
+      "cell_score": "Cytotoxic lymphocytes",
+      "direction_balance_mci_minus_hc": 4,
+      "direction_concordance": "all_available_effects_MCI_higher",
+      "hc_higher_count": 0,
+      "mci_higher_count": 4,
+      "no_mean_difference_count": 0
+    },
+    {
+      "available_effect_count": 4,
+      "cell_score": "Endothelial cells",
+      "direction_balance_mci_minus_hc": 4,
+      "direction_concordance": "all_available_effects_MCI_higher",
+      "hc_higher_count": 0,
+      "mci_higher_count": 4,
+      "no_mean_difference_count": 0
+    },
+    {
+      "available_effect_count": 4,
+      "cell_score": "Fibroblasts",
+      "direction_balance_mci_minus_hc": 2,
+      "direction_concordance": "mixed_direction_or_null",
+      "hc_higher_count": 1,
+      "mci_higher_count": 3,
+      "no_mean_difference_count": 0
+    },
+    {
+      "available_effect_count": 4,
+      "cell_score": "Monocytic lineage",
+      "direction_balance_mci_minus_hc": 2,
+      "direction_concordance": "mixed_direction_or_null",
+      "hc_higher_count": 1,
+      "mci_higher_count": 3,
+      "no_mean_difference_count": 0
+    },
+    {
+      "available_effect_count": 4,
+      "cell_score": "Myeloid dendritic cells",
+      "direction_balance_mci_minus_hc": 4,
+      "direction_concordance": "all_available_effects_MCI_higher",
+      "hc_higher_count": 0,
+      "mci_higher_count": 4,
+      "no_mean_difference_count": 0
+    },
+    {
+      "available_effect_count": 4,
+      "cell_score": "NK cells",
+      "direction_balance_mci_minus_hc": 0,
+      "direction_concordance": "mixed_direction_or_null",
+      "hc_higher_count": 2,
+      "mci_higher_count": 2,
+      "no_mean_difference_count": 0
+    },
+    {
+      "available_effect_count": 4,
+      "cell_score": "Neutrophils",
+      "direction_balance_mci_minus_hc": 4,
+      "direction_concordance": "all_available_effects_MCI_higher",
+      "hc_higher_count": 0,
+      "mci_higher_count": 4,
+      "no_mean_difference_count": 0
+    },
+    {
+      "available_effect_count": 4,
+      "cell_score": "T cells",
+      "direction_balance_mci_minus_hc": 0,
+      "direction_concordance": "mixed_direction_or_null",
+      "hc_higher_count": 2,
+      "mci_higher_count": 2,
+      "no_mean_difference_count": 0
+    }
+  ],
+  "diagnostic_model_modified": false,
+  "exploratory_only": true,
+  "method": "MCPcounter",
+  "pooled_effect_reported": false,
+  "postlock_source_registry_sha256": "5061e6b913c5560f4885f8a110a4cfd582c29824ae8179c6b9a84f0e8932e7b9",
+  "preassessment_diagnosis_labels_accessed": false,
+  "preassessment_manifest_sha256": "b5c440fc5e8d1b2e01baa61e827474a30b6917fccecf2e541b0490043efd8d9a",
+  "preassessment_scores_path": "blood_composition_preassessment_scores_anonymized.csv",
+  "preassessment_scores_sha256": "a2240241aa3a230a75e9a6879258fda8b06e285b380c88da0380801528f907cd",
+  "prediction_correlation_audit": [
+    {
+      "cohort": "GSE63060",
+      "model": "cross_study_stable_ridge",
+      "status": "EVALUATED_EXACT_LABEL_AND_INDEX_MATCH"
+    },
+    {
+      "cohort": "GSE63060",
+      "model": "pooled_ridge_nested_selector",
+      "status": "EVALUATED_EXACT_LABEL_AND_INDEX_MATCH"
+    },
+    {
+      "cohort": "GSE63061",
+      "model": "cross_study_stable_ridge",
+      "status": "EVALUATED_EXACT_LABEL_AND_INDEX_MATCH"
+    },
+    {
+      "cohort": "GSE63061",
+      "model": "pooled_ridge_nested_selector",
+      "status": "EVALUATED_EXACT_LABEL_AND_INDEX_MATCH"
+    },
+    {
+      "cohort": "GSE140829",
+      "model": "cross_study_stable_ridge",
+      "reason": "GSE140829 cross_study_stable_ridge locked predictions do not cover the score endpoint exactly",
+      "status": "NOT_EVALUATED_MAPPING_MISMATCH"
+    },
+    {
+      "cohort": "GSE140829",
+      "model": "pooled_ridge_nested_selector",
+      "reason": "GSE140829 pooled_ridge_nested_selector locked predictions do not cover the score endpoint exactly",
+      "status": "NOT_EVALUATED_MAPPING_MISMATCH"
+    },
+    {
+      "cohort": "GSE249477",
+      "model": "cross_study_stable_ridge",
+      "reason": "GSE249477 cross_study_stable_ridge locked predictions do not cover the score endpoint exactly",
+      "status": "NOT_EVALUATED_MAPPING_MISMATCH"
+    },
+    {
+      "cohort": "GSE249477",
+      "model": "pooled_ridge_nested_selector",
+      "reason": "GSE249477 pooled_ridge_nested_selector locked predictions do not cover the score endpoint exactly",
+      "status": "NOT_EVALUATED_MAPPING_MISMATCH"
+    }
+  ],
+  "source_hashes": {
+    "E:\\20241004_MCI\\20250522\\GEO\\data\\GSE63060_data_matrix.csv": "40278d7bcc2790f5b79eb482419f27a17fb14e8ed61442ee2101cb76754dd646",
+    "E:\\20241004_MCI\\20260709\\data\\GSE63060_official_sample_labels.csv": "dd0d0d192487f49937eb44225844866ed2a676b8803e5aa9a4f24003febd0d28",
+    "E:\\20241004_MCI\\20260709\\data\\GSE63061_data_matrix.csv": "d4bb6df9c567cec4a453deaf51f3e55ef17ceb318dc493c4e99ce909e965eab0",
+    "E:\\20241004_MCI\\20260709\\data\\GSE63061_official_sample_labels.csv": "978f52abc58db7d5889e0949af66ece88619e28f86a273b57a83669c812b9725",
+    "E:\\20260805 Biomni\\MCI_PUBLIC_RELIABILITY_20260812_V5\\00_PROTOCOL\\blood_composition_postlock_assessment_v1.md": "1ba3a1e6a782616a07b97d10537142f2c378bd1ee082a93603656ba75778887a",
+    "E:\\20260805 Biomni\\MCI_PUBLIC_RELIABILITY_20260812_V5\\00_PROTOCOL\\blood_composition_postlock_source_registry_v1.json": "5061e6b913c5560f4885f8a110a4cfd582c29824ae8179c6b9a84f0e8932e7b9",
+    "E:\\20260805 Biomni\\MCI_PUBLIC_RELIABILITY_20260812_V5\\02_ANALYSIS\\run_blood_composition_postlock_assessment.py": "55c3b142758835a85b0cea06f2952572820f9bba13e2312d911445fdaa097ebd",
+    "E:\\20260805 Biomni\\MCI_PUBLIC_RELIABILITY_20260812_V5\\03_RESULTS\\blood_composition_preassessment_manifest.json": "b5c440fc5e8d1b2e01baa61e827474a30b6917fccecf2e541b0490043efd8d9a",
+    "E:\\20260805 Biomni\\MCI_PUBLIC_RELIABILITY_20260812_V5\\03_RESULTS\\blood_composition_preassessment_scores_anonymized.csv": "a2240241aa3a230a75e9a6879258fda8b06e285b380c88da0380801528f907cd",
+    "E:\\20260805 Biomni\\MCI_PUBLIC_RELIABILITY_20260812_V5\\03_RESULTS\\cross_study_stable_audit.json": "1dfb9e23544b8b5af3c4e14adbf353ca536fde9ee9ed69953d88d7e226d5b7a0",
+    "E:\\20260805 Biomni\\MCI_PUBLIC_RELIABILITY_20260812_V5\\03_RESULTS\\cross_study_stable_predictions_anonymized.csv": "305174f8d18694e17e8f4b3d819477664987550adb1de4b628adf116857b55d3",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse140829_task8\\GSE140829_series_matrix.fresh.txt.gz": "be4f08a2cb01fe912a764df66fd654dec70d9e1ecd36bded00b675b27e7f83f3",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse140829_task9\\GPL15988_full.txt": "6b270524044cb432724c50092c0b87cdc6fa6564b50a13aa6b27ae134fdacf03",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse249477_task9\\GSE249477_raw_count_normalize_04-10-2025.csv.gz": "4f8e0f8b75ebe4ec8aee6d88ce8e0a5a48f179f5fe7cb5981aafcae8701945cb",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse249477_task9\\GSE249477_series_matrix.txt.gz": "b7f5370b1c2665b53c821405cd0bbd6fafd82a2b4f0c899d7ce1ae03cda7fc03"
+  },
+  "statistics": {
+    "cross_cohort_summary": "available effects and explicit direction counts/concordance only; not pooled",
+    "group_test": "two-sided Welch t-test",
+    "multiple_testing": "Benjamini-Hochberg within cohort and MCPcounter method across ten scores",
+    "prediction_correlation": "descriptive Spearman correlation after exact label/index validation",
+    "score_effect": "MCI-minus-HC mean difference and Hedges_g"
+  },
+  "status": "POSTLOCK_SINGLE_METHOD_EXPLORATORY_COMPOSITION_AUDIT",
+  "xcell_status": "BLOCKED"
+}

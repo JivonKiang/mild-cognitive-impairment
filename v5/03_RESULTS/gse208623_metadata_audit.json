@@ -1,0 +1,36 @@
+{
+  "status": "METADATA_ONLY_CROSS_OMICS_AUDIT_SOURCE_LOCKED_SEPARATE_ASSOCIATION_AVAILABLE",
+  "accession": "GSE208623",
+  "official_series_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE208623",
+  "official_platform": "GPL21145",
+  "assay": "Illumina Infinium MethylationEPIC DNA methylation array",
+  "specimen": "peripheral blood leukocytes",
+  "cohort_country": "China",
+  "metadata_rows": 60,
+  "endpoint_counts": {
+    "AD": 20,
+    "HC": 20,
+    "MCI": 20
+  },
+  "sex_available": true,
+  "sex_counts": {
+    "female": 43,
+    "male": 17
+  },
+  "age_available": false,
+  "age_metadata_status": "NOT_REPORTED_IN_INSPECTED_OFFICIAL_SERIES_MATRIX_METADATA",
+  "metadata_sha256": "9d61eb5ed50326fbfe4ea4b9f74937b7e92de4199269f54dcd3f208d5bd322bd",
+  "processed_beta_source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE208nnn/GSE208623/suppl/GSE208623_Norm_beta.csv.gz",
+  "processed_beta_expected_bytes": 363136110,
+  "beta_matrix_available": true,
+  "beta_matrix_sha256": "bf6c3f81bb676008a6c02630858b95a481ff5842200ee75f260146907a3500b3",
+  "beta_retrieval_status": "SOURCE_LOCKED_SEPARATE_ASSOCIATION_AVAILABLE",
+  "metadata_module_performed_cpg_association": false,
+  "metadata_module_performed_methylation_expression_overlap": false,
+  "separate_source_locked_association_available": true,
+  "mRNA_model_fitting": false,
+  "mRNA_model_tuning_or_calibration": false,
+  "mRNA_model_validation": false,
+  "mr_or_causal_analysis_performed": false,
+  "claim_boundary": "Independent blood-leukocyte DNA-methylation cohort metadata only. A separate source-locked sex-adjusted association audit is available; this metadata module did not perform it. Not mRNA model validation, model fitting, tuning, calibration, pooled analysis, methylation-expression mediation, cell-composition proof, or causal evidence."
+}

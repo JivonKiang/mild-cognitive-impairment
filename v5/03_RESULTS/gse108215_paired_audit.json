@@ -1,0 +1,60 @@
+{
+  "status": "EXPLORATORY_PAIRED_INTERVENTION_RESPONSE_ONLY",
+  "dataset": "GSE108215",
+  "assay": "whole-blood Affymetrix U133 Plus 2.0 processed expression matrix",
+  "study_design": "randomized MAP versus HEP MCI intervention cohort with pre/post blood samples",
+  "analysis_unit": "paired subject-level post-minus-pre change",
+  "sample_counts": {
+    "total_expression_rows": 86,
+    "pre": 50,
+    "post": 36
+  },
+  "reported_vs_matrix_sample_counts": {
+    "reported_pre": 51,
+    "matrix_pre": 50,
+    "reported_post": 36,
+    "matrix_post": 36
+  },
+  "sample_count_boundary": "The GEO series narrative reports 51 pre-treatment and 36 post-treatment samples; the official series matrix contains 50 pre-treatment and 36 post-treatment expression columns. The paired audit uses matrix-observed rows only.",
+  "paired_subject_counts": {
+    "HEP": 18,
+    "MAP": 17
+  },
+  "unpaired_subject_counts": {
+    "pre_only": {
+      "HEP": 6,
+      "MAP": 9
+    },
+    "post_only": {
+      "HEP": 1,
+      "MAP": 0
+    }
+  },
+  "mapping": {
+    "panel_size": 12,
+    "mapped": 10,
+    "missing_genes": [
+      "PHF15",
+      "LAT1-3TM"
+    ],
+    "probe_aggregation": "median of log2(signal+1) across exact-symbol GPL570 probes",
+    "alias_substitution_allowed": false
+  },
+  "score_definition": "frozen signed partial score: each mapped MCI_peak gene +1/6 and each mapped MCI_trough gene -1/6 after gene-wise standardization across all 86 samples",
+  "arm_or_time_labels_used_for_preprocessing": false,
+  "arm_or_time_labels_used_for_score_definition": false,
+  "output_restriction": "aggregate results only; no GSM accessions, local participant tokens, individual scores, or expression values are exported",
+  "source_hashes": {
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse108215_task10\\GSE108215_series_matrix.complete.txt.gz": "2624e0f326250d4947ed215bd231fa28e0b6b98f01ffa6d83bc583d40142f6da",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse108215_task10\\GPL570.annot.complete.gz": "d7cd44352127b1e34f3a720ebea86093ef255a38f1612a85a2962b71bde8f394",
+    "E:\\20241004_MCI\\20260709\\mci_development_optimized_panel_20260722_161919\\development_locked_12_gene_panel.csv": "697d1332afc7c8c8638e8fe75f1a5a506f0042e11604a768a7f1386b0983da13"
+  },
+  "official_sources": {
+    "geo_record": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108215",
+    "series_matrix": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE108nnn/GSE108215/matrix/GSE108215_series_matrix.txt.gz",
+    "platform_annotation": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL570/annot/GPL570.annot.gz",
+    "access_date": "2026-08-13"
+  },
+  "allowed_claim": "This is an exploratory, label-leakage-free paired molecular response audit of a partial frozen score in a small public MCI intervention cohort.",
+  "forbidden_claim": "This is not MCI-versus-HC validation, a complete 12-gene score replication, evidence of cognitive benefit, treatment efficacy, clinical utility, causality, or mechanism."
+}

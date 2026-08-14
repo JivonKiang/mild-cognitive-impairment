@@ -9,13 +9,14 @@ when its final bibliographic record and DOI are available.
 Use the author list and metadata in `CITATION.cff`:
 
 > Jiang, F., Wang, S., Li, M., Dou, X., Gong, L., Sun, Z., Lu, N., and Dong,
-> J. (2026). *MCI blood transcriptomics reproducibility* [Computer software].
-> GitHub. https://github.com/JivonKiang/mci-bmc-genomics-reproducibility
+> J. (2026). *Mild cognitive impairment: public blood transcriptomics*
+> [Computer software]. GitHub.
+> https://github.com/JivonKiang/mild-cognitive-impairment
 
-At the time of this public release, the associated manuscript does not have a
-final DOI. Do not invent a DOI or cite the repository as a published clinical
-validation study. Update this file and `CITATION.cff` when the final article
-metadata are known.
+The repository DOI will be added after the immutable `v5.0.0` tag is archived.
+Do not invent a DOI or cite the repository as a published clinical validation
+study. Update this file and `CITATION.cff` when the final article metadata are
+known.
 
 ## When citation is expected
 

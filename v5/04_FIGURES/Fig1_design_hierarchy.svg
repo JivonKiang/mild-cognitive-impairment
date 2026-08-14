@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="526.774152pt" height="357.59952pt" viewBox="0 0 526.774152 357.59952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-14T12:16:52.221560</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 357.59952
+L 526.774152 357.59952
+L 526.774152 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #64748b" x="78.327498" y="28.394865" transform="rotate(-0 78.327498 28.394865)">PUBLIC DATA / COHORT ADMISSION</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 13.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e293b" x="78.327498" y="49.918144" transform="rotate(-0 78.327498 49.918144)">Leakage-aware transportability audit</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #64748b" x="78.327498" y="67.854209" transform="rotate(-0 78.327498 67.854209)">Primary estimand: peripheral whole-blood bulk-mRNA MCI versus HC. Counts are source-locked sample rows unless stated otherwise.</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_2">
+    <path d="M 78.327498 201.788454
+L 185.018745 201.788454
+L 185.018745 125.124586
+L 78.327498 125.124586
+z
+" clip-path="url(#p565c432d3d)" style="fill: #e8f0fe; stroke: #2563eb; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 231.04242 201.788454
+L 333.549696 201.788454
+L 333.549696 125.124586
+L 231.04242 125.124586
+z
+" clip-path="url(#p565c432d3d)" style="fill: #f1f5f9; stroke: #cbd5e1; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 381.665357 166.941241
+L 488.356603 166.941241
+L 488.356603 118.155143
+L 381.665357 118.155143
+z
+" clip-path="url(#p565c432d3d)" style="fill: #fdecec; stroke: #b91c1c; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 381.665357 222.696781
+L 488.356603 222.696781
+L 488.356603 173.910684
+L 381.665357 173.910684
+z
+" clip-path="url(#p565c432d3d)" style="fill: #e7f6f3; stroke: #0f766e; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e293b" x="7.2" y="86.095708" transform="rotate(-0 7.2 86.095708)">a</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e293b" x="74.143527" y="105.188218" transform="rotate(-0 74.143527 105.188218)">Primary evidence lane</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1e293b" transform="translate(85.858645 137.959551)">Development family</text>
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1e293b" transform="translate(85.858645 145.552335)">GSE63060 + GSE63061</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 5.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(85.858645 182.175284)">208 endpoint rows</text>
+    <text style="font-size: 5.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(85.858645 188.204102)">fold-contained selection</text>
+    <text style="font-size: 5.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(85.858645 194.316284)">development family</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1e293b" transform="translate(238.573567 137.87302)">Frozen MCI-versus-HC</text>
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1e293b" transform="translate(238.573567 145.372617)">pipeline</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 5.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(238.573567 188.137306)">endpoint + feature panel + preprocessing</text>
+    <text style="font-size: 5.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(238.573567 194.316284)">locked before target diagnosis assessment</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1e293b" transform="translate(389.196503 130.903577)">GSE140829</text>
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1e293b" transform="translate(389.196503 138.403174)">primary external audit</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 5.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(389.196503 153.440252)">383 HC/MCI rows</text>
+    <text style="font-size: 5.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(389.196503 159.469071)">sample-row audit; subject map unresolved</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1e293b" transform="translate(389.196503 186.659117)">GSE249477</text>
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1e293b" transform="translate(389.196503 194.262552)">cross-platform stress test</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 5.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(389.196503 209.195793)">41 HC/MCI rows</text>
+    <text style="font-size: 5.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(389.196503 215.224611)">RNA-seq; secondary transport stress test</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 189.114613 162.759576
+Q 206.984421 162.759576 223.736196 162.759576
+" style="fill: none; stroke: #64748b; stroke-linecap: round"/>
+    <path d="M 220.856196 161.319576
+L 223.736196 162.759576
+L 220.856196 164.199576
+" style="fill: none; stroke: #64748b; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 339.555599 161.928977
+Q 357.607616 153.699259 374.642328 145.93332
+" style="fill: none; stroke: #64748b; stroke-linecap: round"/>
+    <path d="M 371.424466 145.817727
+L 374.642328 145.93332
+L 372.619136 148.438254
+" style="fill: none; stroke: #64748b; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 339.186846 164.135513
+Q 357.60838 181.577879 375.218063 198.251546
+" style="fill: none; stroke: #64748b; stroke-linecap: round"/>
+    <path d="M 374.116839 195.225772
+L 375.218063 198.251546
+L 372.13671 197.317061
+" style="fill: none; stroke: #64748b; stroke-linecap: round"/>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #b91c1c" x="74.143527" y="229.666224" transform="rotate(-0 74.143527 229.666224)">Transport assessment is not positive validation when domain displacement prevents generalization.</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_9">
+    <path d="M 78.327498 333.795848
+L 203.846612 333.795848
+L 203.846612 281.217554
+L 78.327498 281.217554
+z
+" clip-path="url(#pf16cb168fe)" style="fill: #f1f5f9; stroke: #cbd5e1; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 220.582494 333.795848
+L 346.101608 333.795848
+L 346.101608 281.217554
+L 220.582494 281.217554
+z
+" clip-path="url(#pf16cb168fe)" style="fill: #f1f5f9; stroke: #cbd5e1; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 362.83749 333.795848
+L 488.356603 333.795848
+L 488.356603 281.217554
+L 362.83749 281.217554
+z
+" clip-path="url(#pf16cb168fe)" style="fill: #f1f5f9; stroke: #cbd5e1; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e293b" x="7.2" y="250.777488" transform="rotate(-0 7.2 250.777488)">b</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e293b" x="74.143527" y="268.010404" transform="rotate(-0 74.143527 268.010404)">Separate, non-pooled evidence branches</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1e293b" transform="translate(85.858645 291.372945)">GSE282742</text>
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1e293b" transform="translate(85.858645 298.872542)">progression association</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 5.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(85.858645 322.349643)">86 unique subjects; 52 baseline records</text>
+    <text style="font-size: 5.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(85.858645 328.445258)">separate progression endpoint</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1e293b" transform="translate(228.113641 291.372945)">GSE208623</text>
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #1e293b" transform="translate(228.113641 298.872542)">cross-omics context</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 5.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(228.113641 322.416439)">blood-leukocyte methylation</text>
+    <text style="font-size: 5.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(228.113641 328.512055)">separate association audit; not mRNA validation</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e293b" x="370.368636" y="291.459476" transform="rotate(-0 370.368636 291.459476)">Other incompatible sources</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 5.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(370.368636 322.26628)">PBMC, intervention, cell-specific, brain, or non-coding RNA</text>
+    <text style="font-size: 5.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #64748b" transform="translate(370.368636 328.445258)">excluded from primary model performance</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b91c1c" x="283.342051" y="348.554668" transform="rotate(-0 283.342051 348.554668)">Do not pool incompatible estimands</text>
+   </g>
+  </g>
+  <g id="text_24">
+   <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e293b" x="14.598509" y="13.02375" transform="rotate(-0 14.598509 13.02375)">Fig. 1 | Cohort admission and evidence boundaries</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p565c432d3d">
+   <rect x="74.143527" y="97.246816" width="418.397047" height="139.388851"/>
+  </clipPath>
+  <clipPath id="pf16cb168fe">
+   <rect x="74.143527" y="258.156898" width="418.397047" height="92.242622"/>
+  </clipPath>
+ </defs>
+</svg>

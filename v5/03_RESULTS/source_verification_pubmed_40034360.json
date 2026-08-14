@@ -1,0 +1,179 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "40034360"
+    ],
+    "40034360": {
+      "uid": "40034360",
+      "pubdate": "2024",
+      "epubdate": "2024 Dec 23",
+      "source": "J Alzheimers Dis Rep",
+      "authors": [
+        {
+          "name": "Iga JI",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yoshino Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ozaki T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tachibana A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kumon H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Funahashi Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mori H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ueno M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ozaki Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yamazaki K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ochi S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yamashita M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ueno SI",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Ueno SI",
+      "title": "Blood RNA transcripts show changes in inflammation and lipid metabolism in Alzheimer's disease and mitochondrial function in mild cognitive impairment.",
+      "sorttitle": "blood rna transcripts show changes in inflammation and lipid metabolism in alzheimer s disease and mitochondrial function in mild cognitive impairment",
+      "volume": "8",
+      "issue": "1",
+      "pages": "1690-1703",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101705500",
+      "issn": "",
+      "essn": "2542-4823",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed",
+      "pubstatus": "258",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "40034360"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC11863738"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC11863738;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1177/25424823241307878"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1177_25424823241307878"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2024/07/23 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2024/11/27 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2025/03/04 10:54"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2025/03/04 10:53"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2025/03/04 04:47"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2024/12/23 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 65,
+      "fulljournalname": "Journal of Alzheimer's disease reports",
+      "elocationid": "doi: 10.1177/25424823241307878",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2024/12/23 00:00",
+      "sortfirstauthor": "Iga JI",
+      "vernaculartitle": ""
+    }
+  }
+}

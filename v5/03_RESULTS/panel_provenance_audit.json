@@ -1,0 +1,19 @@
+{
+  "alias_substitution_allowed": false,
+  "historical_selection_claim": "archived deterministic development-selection replay is separately verified in archived_locked12_selection_audit.json; this remains development-only, not independent discovery or external validation",
+  "panel_size": 12,
+  "source_contrast_sha256": "f4fd136c164505c74df5ef3bee6d40e9ed85ce6da9697a3732086cea59a2eb8b",
+  "source_files": [
+    "E:\\20241004_MCI\\20260730_Molecular_Neurobiology\\05_Data_and_Code\\source_data\\source_figure2_locked_12_gene_panel.csv",
+    "E:\\20241004_MCI\\20260730_Molecular_Neurobiology\\05_Data_and_Code\\source_data\\source_figure3_locked_score_contrasts.csv",
+    "E:\\20260805 Biomni\\MCI_INTEGRATION_20260810\\06_FROZEN_SCORE\\frozen_score_results.csv"
+  ],
+  "source_hashes": {
+    "E:\\20241004_MCI\\20260730_Molecular_Neurobiology\\05_Data_and_Code\\source_data\\source_figure2_locked_12_gene_panel.csv": "55decc38e449776a8da2e4100bd602530f9bc0023a8dd9ea048b33d28fa720a5",
+    "E:\\20241004_MCI\\20260730_Molecular_Neurobiology\\05_Data_and_Code\\source_data\\source_figure3_locked_score_contrasts.csv": "f4fd136c164505c74df5ef3bee6d40e9ed85ce6da9697a3732086cea59a2eb8b",
+    "E:\\20260805 Biomni\\MCI_INTEGRATION_20260810\\06_FROZEN_SCORE\\frozen_score_results.csv": "5e66e6f906d8e0ea778ad6dbd96b735360f07a9312261a5ab5e8886cc12f52ca"
+  },
+  "source_panel_sha256": "55decc38e449776a8da2e4100bd602530f9bc0023a8dd9ea048b33d28fa720a5",
+  "status": "PROVENANCE_LEDGER_GENERATED",
+  "weight_rule": "trajectory direction sign divided by 6; this is a fixed audit comparator, not a newly trained coefficient vector"
+}

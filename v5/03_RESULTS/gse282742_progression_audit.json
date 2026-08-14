@@ -1,0 +1,41 @@
+{
+  "status": "EXPLORATORY_GSE282742_PROGRESSION_ASSOCIATION",
+  "dataset": "GSE282742",
+  "primary_analysis": "subject-level representative-record analysis",
+  "primary_counts": {
+    "unique_subjects": 52,
+    "covariate_complete_subjects": 51,
+    "p_mci": 22,
+    "s_mci": 29
+  },
+  "representative_record_rule": "first eligible P-MCI/S-MCI row in public metadata order; no verified visit dates are available, so this is not claimed as baseline",
+  "paired_analysis": "paired transition sensitivity",
+  "paired_p_mci_to_ad_subjects": 11,
+  "covariates": [
+    "age",
+    "sex"
+  ],
+  "transformation": "log2(CPM + 1)",
+  "multiplicity": "Benjamini-Hochberg across all tested genes per analysis",
+  "prediction_model_fitting": false,
+  "pathway_summary_status": "EXPLORATORY_PINNED_REACTOME_PRERANKED_ENRICHMENT",
+  "pathway_summary_source": {
+    "registry_path": "E:\\20260805 Biomni\\MCI_PUBLIC_RELIABILITY_20260812_V5\\00_PROTOCOL\\gse282742_progression_gene_set_registry_v1.json",
+    "registry_sha256": "b351ac869dc7ceed6e0243d1192eeada2571fc221d3496cdd5d424dc8ebc6734",
+    "gmt_sha256": "89983d5c1f0af11c52edfeee7323eb425580ac6281d387a528562ab1787ce56b",
+    "mapping_sha256": "f2c03bb5dbb74e54ce962d6f8566e2ef537970b843aa1add4f2dacf4de91d27c",
+    "ranked_unique_symbols": 20897,
+    "tested_pathways": 1396
+  },
+  "claim_boundary": "exploratory progression association; subject-level representative-record analysis without verified visit dates; paired transition sensitivity; not independent predictive validation; not causal evidence",
+  "source_hashes": {
+    "E:\\20241004_MCI\\20260709\\external_public_data_20260721_151749\\GSE282742_Expected_count.full.gz": "f0f60bf731e80946b482ca3cf45765bba20830499cab3e2906ac655d087f5197",
+    "E:\\20241004_MCI\\20260709\\external_public_data_20260721_151749\\GSE282742_sample_subject_audit.csv": "a5bd35b22f89d8146a3df99666bcba20657d4f062a077897faf35eb6e4c097c5"
+  },
+  "official_sources": {
+    "geo_record": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE282742",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39754267/",
+    "doi": "https://doi.org/10.1186/s13195-024-01651-0",
+    "access_date": "2026-08-13"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "ad_excluded_before_modeling": 20,
+  "analysis_sample_count": 40,
+  "concordance": {
+    "gene_sign_permutation_null_mean": 0.5377724620994051,
+    "gene_sign_permutation_p_value": 9.999000099990002e-05,
+    "opposite_sign_fraction": 0.4401266551525619,
+    "overlap_gene_count": 10422,
+    "permutations": 10000,
+    "same_sign_fraction": 0.5598733448474381,
+    "sign_eligible_gene_count": 10422,
+    "spearman_correlation": 0.2798630179663987,
+    "zero_or_no_direction_gene_count": 0
+  },
+  "cpg_count": 738242,
+  "evidence_boundary": "Sex-adjusted MCI-minus-HC CpG association and cross-omics concordance only; not prediction, model validation, MR, causal inference, IDAT processing, or pathway analysis.",
+  "input_hashes": {
+    "analysis_protocol_gse208623_cross_omics": "b85dfec66894658a64dca58c69ee9c1ca9e5f776b4b308dcd56cdefb2479dcfb",
+    "cross_cohort_effects": "aadeab45740f751e77f9e0294f03ddb600861f892db4415557cfabe3d7adbb41",
+    "gpl21145_annotation": "bcb11dc3de47b509864238ca2f2d24a505684624b4a18e362597756da6f3bea1",
+    "gse208623_beta": "bf6c3f81bb676008a6c02630858b95a481ff5842200ee75f260146907a3500b3",
+    "gse208623_official_source_manifest": "877bf6bd9542f7df8281496501cb39a7cd7c948c0a86d90393922e2e8ed60d74",
+    "gse208623_series_matrix_header": "9d61eb5ed50326fbfe4ea4b9f74937b7e92de4199269f54dcd3f208d5bd322bd"
+  },
+  "official_gsm_count": 60,
+  "output_hashes": {
+    "gse208623_cpg_associations": "9474f7413f89a6030a9fc315d22046f60bc5f0db92db465418108934d7be2570",
+    "gse208623_gene_concordance": "72805b3c2d28d66b9acad893dca9898b5c999ac372dcc6e2b7455a707c9ea785"
+  },
+  "status": "GSE208623_CROSS_OMICS_ASSOCIATION_AUDIT",
+  "transcriptome_reference_cohorts": [
+    "GSE63060",
+    "GSE63061"
+  ],
+  "unambiguous_gene_count": 20174
+}

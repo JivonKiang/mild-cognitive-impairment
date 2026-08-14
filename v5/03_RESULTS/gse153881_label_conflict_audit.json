@@ -1,0 +1,75 @@
+{
+  "status": "BLOCKED_PENDING_LABEL_RECONCILIATION",
+  "dataset": "GSE153881",
+  "assay": "plasma extracellular-vesicle RNA-seq",
+  "specimen": "plasma extracellular vesicles",
+  "supplementary_count_files": 15,
+  "parseable_count_files": 15,
+  "metadata_sample_count": 15,
+  "accession_label_conflict_count": 10,
+  "conflict_summary": "GEO series-matrix diagnosis records and supplementary geneCOUNT filename labels disagree for MCI and AD accessions.",
+  "grouped_expression_analysis_performed": false,
+  "allowed_claim": "The public source records contain an accession-level label conflict requiring independent reconciliation before groupwise analysis.",
+  "forbidden_claim": "No MCI-versus-HC, MCI-versus-AD, diagnostic, prognostic, mechanistic, or treatment result may be reported from this dataset at this stage.",
+  "source_hashes": {
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse153881_task10\\GSE153881_series_matrix.complete.txt.gz": "7d6989b481267cd396dfc94bf44aa5990560e8831be05a0a180e8b8c7bf1ad75",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse153881_task10\\GSE153881_RAW.tar": "f5665f147648e5da78cff07ea62a8586bf2ed1e697689a32f77adf082571bbf8"
+  },
+  "official_sources": {
+    "geo_record": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153881",
+    "linked_publication": "https://pubmed.ncbi.nlm.nih.gov/33304899/",
+    "access_date": "2026-08-13"
+  },
+  "conflicts": [
+    {
+      "accession": "GSM4658062",
+      "geo_matrix_label": "AD",
+      "raw_filename_label": "MCI"
+    },
+    {
+      "accession": "GSM4658063",
+      "geo_matrix_label": "AD",
+      "raw_filename_label": "MCI"
+    },
+    {
+      "accession": "GSM4658064",
+      "geo_matrix_label": "AD",
+      "raw_filename_label": "MCI"
+    },
+    {
+      "accession": "GSM4658065",
+      "geo_matrix_label": "AD",
+      "raw_filename_label": "MCI"
+    },
+    {
+      "accession": "GSM4658066",
+      "geo_matrix_label": "AD",
+      "raw_filename_label": "MCI"
+    },
+    {
+      "accession": "GSM4658067",
+      "geo_matrix_label": "MCI",
+      "raw_filename_label": "AD"
+    },
+    {
+      "accession": "GSM4658068",
+      "geo_matrix_label": "MCI",
+      "raw_filename_label": "AD"
+    },
+    {
+      "accession": "GSM4658069",
+      "geo_matrix_label": "MCI",
+      "raw_filename_label": "AD"
+    },
+    {
+      "accession": "GSM4658070",
+      "geo_matrix_label": "MCI",
+      "raw_filename_label": "AD"
+    },
+    {
+      "accession": "GSM4658071",
+      "geo_matrix_label": "MCI",
+      "raw_filename_label": "AD"
+    }
+  ]
+}

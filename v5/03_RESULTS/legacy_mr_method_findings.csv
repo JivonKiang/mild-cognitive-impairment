@@ -1,0 +1,6 @@
+finding_id,code_evidence,gate_failed,impact
+exposure_effect_scale,beta_exp := Zscore; se_exp := 1,Recorded exposure beta and standard error,The inherited output cannot document the actual eQTL effect and uncertainty used for this audit.
+instrument_pruning,distance-based clumping; 1 Mb window,LD-reference-based instrument clumping,Distance-only pruning does not satisfy the V5 LD-clumping evidence gate.
+coloc_gene_locus_identity,"eqtl_dedup <- eqtl_all[, .SD[which.min(Pvalue)], by = SNP]",Gene-locus-specific colocalization input,Global SNP deduplication precedes gene-specific colocalization and does not preserve a gene-locus input record.
+outcome_compatibility,script header: cis-eQTL -> AD; AD GWAS outcome,MCI-stage phenotype compatibility,An AD-GWAS outcome cannot establish a causal MCI-stage result in this manuscript.
+reproduction_provenance,"legacy script expects /workspace/mci_paper/mr_data inputs; V5 retains output tables but not those raw input files, execution environment or execution log",Inspectable rerun provenance,Inherited output tables alone do not meet the V5 reproducibility threshold.

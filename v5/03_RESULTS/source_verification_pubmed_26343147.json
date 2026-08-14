@@ -1,0 +1,208 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "26343147"
+    ],
+    "26343147": {
+      "uid": "26343147",
+      "pubdate": "2015 Sep 7",
+      "epubdate": "2015 Sep 7",
+      "source": "Genome Biol",
+      "authors": [
+        {
+          "name": "Sood S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Gallagher IJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lunnon K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Rullman E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Keohane A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Crossland H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Phillips BE",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Cederholm T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jensen T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "van Loon LJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lannfelt L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kraus WE",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Atherton PJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Howard R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Gustafsson T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hodges A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Timmons JA",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Timmons JA",
+      "title": "A novel multi-tissue RNA diagnostic of healthy ageing relates to cognitive health status.",
+      "sorttitle": "novel multi tissue rna diagnostic of healthy ageing relates to cognitive health status",
+      "volume": "16",
+      "issue": "1",
+      "pages": "185",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "100960660",
+      "issn": "1474-7596",
+      "essn": "1474-760X",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "26343147"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC4561473"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC4561473;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1186/s13059-015-0750-x"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1186/s13059-015-0750-x"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2015/05/26 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2015/08/12 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2015/09/08 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2015/09/08 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2016/05/24 06:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2015/09/07 00:00"
+        }
+      ],
+      "references": [
+        {
+          "refsource": "Genome Biol. 2019 Aug 2;20(1):152. doi: 10.1186/s13059-019-1734-z.",
+          "reftype": "Comment in",
+          "pmid": 31375147,
+          "note": ""
+        }
+      ],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 101,
+      "fulljournalname": "Genome biology",
+      "elocationid": "doi: 10.1186/s13059-015-0750-x",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2015/09/07 00:00",
+      "sortfirstauthor": "Sood S",
+      "vernaculartitle": ""
+    }
+  }
+}

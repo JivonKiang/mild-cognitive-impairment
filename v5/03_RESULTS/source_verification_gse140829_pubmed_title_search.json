@@ -1,0 +1,23 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "\"systems level\"[All Fields] AND (\"analysis\"[MeSH Subheading] OR \"analysis\"[All Fields]) AND (\"peripheral\"[All Fields] OR \"peripherally\"[All Fields] OR \"peripherals\"[All Fields] OR \"periphereal\"[All Fields] OR \"peripheric\"[All Fields] OR \"peripherically\"[All Fields]) AND (\"blood\"[MeSH Subheading] OR \"blood\"[All Fields] OR \"blood\"[MeSH Terms] OR \"bloods\"[All Fields] OR \"haematology\"[All Fields] OR \"hematology\"[MeSH Terms] OR \"hematology\"[All Fields] OR \"haematoma\"[All Fields] OR \"hematoma\"[MeSH Terms] OR \"hematoma\"[All Fields] OR \"haemorrhage\"[All Fields] OR \"hemorrhage\"[MeSH Terms] OR \"hemorrhage\"[All Fields] OR \"haemorrhages\"[All Fields] OR \"hemorrhages\"[All Fields] OR \"haemorrhagic\"[All Fields] OR \"haemorrhaging\"[All Fields] OR \"hematologies\"[All Fields] OR \"haematomas\"[All Fields] OR \"hematomas\"[All Fields] OR \"hematoma s\"[All Fields] OR \"hematomae\"[All Fields] OR \"hemorrhaged\"[All Fields] OR \"hemorrhagic\"[All Fields] OR \"hemorrhagical\"[All Fields] OR \"hemorrhaging\"[All Fields]) AND (\"gene expression\"[MeSH Terms] OR (\"gene\"[All Fields] AND \"expression\"[All Fields]) OR \"gene expression\"[All Fields]) AND (\"dementia\"[MeSH Terms] OR \"dementia\"[All Fields] OR \"dementias\"[All Fields] OR \"dementia s\"[All Fields]) AND (\"patient s\"[All Fields] OR \"patients\"[MeSH Terms] OR \"patients\"[All Fields] OR \"patient\"[All Fields] OR \"patients s\"[All Fields]) AND (\"reveal\"[All Fields] OR \"revealed\"[All Fields] OR \"revealing\"[All Fields] OR \"reveals\"[All Fields]) AND (\"immunity, innate\"[MeSH Terms] OR (\"immunity\"[All Fields] AND \"innate\"[All Fields]) OR \"innate immunity\"[All Fields] OR (\"innate\"[All Fields] AND \"immune\"[All Fields] AND \"response\"[All Fields]) OR \"innate immune response\"[All Fields]) AND (\"share\"[All Fields] OR \"shared\"[All Fields] OR \"shares\"[All Fields] OR \"sharing\"[All Fields] OR \"sharings\"[All Fields]) AND \"across\"[All Fields] AND (\"multiple\"[All Fields] OR \"multiples\"[All Fields]) AND (\"disease\"[MeSH Terms] OR \"disease\"[All Fields] OR \"disorder\"[All Fields] OR \"disorders\"[All Fields] OR \"disorder s\"[All Fields] OR \"disordes\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [
+        "\"Systems-level analysis of peripheral blood gene expression in dementia patients reveals an innate immune response shared across multiple disorders\""
+      ],
+      "outputmessages": [
+        "No items found."
+      ]
+    }
+  }
+}

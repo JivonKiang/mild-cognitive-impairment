@@ -1,0 +1,4 @@
+analysis,arm,n_subjects,mean_post_minus_pre,median_post_minus_pre,sd_post_minus_pre,mean_change_ci_low,mean_change_ci_high,paired_t_p_value_exploratory,wilcoxon_p_value_exploratory
+within_arm_paired_change,HEP,18,0.14411051327507365,0.1996727083543965,0.7500424931128273,-0.19023031757739695,0.4853753536016664,0.4262508737734335,0.550872802734375
+within_arm_paired_change,MAP,17,0.43898747975431285,0.3996911526902855,0.8735116261997625,0.04512495271146099,0.8511779430041163,0.05477812190784114,0.10888671875
+between_arm_difference_of_paired_changes,MAP_minus_HEP,35,0.2948769664792392,,,,,0.29331234187957744,

@@ -1,19 +1,37 @@
-# MCI blood transcriptomics reproducibility
+# Mild cognitive impairment: public blood transcriptomics
 
-Public research code and aggregate result tables supporting a BMC Genomics submission prepared on 3 August 2026.
+Public research code and aggregate result tables for a public-data reliability
+and transportability audit of mild cognitive impairment (MCI) blood
+transcriptome models.
 
-[![Public release checks](https://github.com/JivonKiang/mci-bmc-genomics-reproducibility/actions/workflows/public-release-check.yml/badge.svg)](https://github.com/JivonKiang/mci-bmc-genomics-reproducibility/actions/workflows/public-release-check.yml)
+[![Public release checks](https://github.com/JivonKiang/mild-cognitive-impairment/actions/workflows/public-release-check.yml/badge.svg)](https://github.com/JivonKiang/mild-cognitive-impairment/actions/workflows/public-release-check.yml)
 [![License: MIT](https://img.shields.io/badge/Code%20license-MIT-blue.svg)](LICENSE)
+
+## Versioned releases
+
+- `legacy-v1.0.0`: the preserved 3 August 2026 BMC Genomics reproducibility
+  release and its original commit history.
+- `v5.0.0`: the leakage-aware reliability and transportability release under
+  `v5/`, retained as the current scientific release line.
+
+The repository was renamed from `mci-bmc-genomics-reproducibility` to
+`mild-cognitive-impairment` on 14 August 2026. GitHub's old URL redirect is
+retained for existing citations.
 
 ## Release status
 
 This is a provenance-preserving research release, not a clinical software package or a one-command reproduction of the complete local project. The public repository contains selected code and aggregate outputs; the original raw, controlled-access and sample-level inputs remain outside the repository.
 
-## Study scope
+## Current study scope
 
-The study evaluates a de novo 95-gene MCI-centred blood expression programme and a locked 12-gene research score. It reports reproducibility within the AddNeuroMed development system, no observed reproduction in the independent GSE249477 blood RNA-seq cohort, and bounded progression, single-cell, MR and brain-context analyses.
+The current release evaluates leakage-aware development, independent transport,
+domain displacement and uncertainty for public blood-transcriptome MCI models.
+The detailed V5 package is in [`v5/README.md`](v5/README.md).
 
-The score is a research representation of a cross-sectional stage-associated state. This repository does not support a claim of a validated clinical biomarker, an MCI-to-AD prediction model, causal immune mediation or therapeutic target engagement.
+The score is a research representation of a cross-sectional stage-associated
+state. This repository does not support a claim of a validated clinical
+biomarker, an MCI-to-AD prediction model, causal immune mediation or therapeutic
+target engagement.
 
 ## Contents
 
@@ -57,7 +75,10 @@ This public release contains no sample-level, subject-level or cell-level record
 
 ## Citation
 
-Please cite the repository when reusing its code or aggregate result tables. The preferred citation and the current citation status are documented in [`CITATION.md`](CITATION.md) and [`CITATION.cff`](CITATION.cff). The associated manuscript did not have a DOI at this release; the citation file should be updated when the final article is published.
+Please cite the repository when reusing its code or aggregate result tables.
+The preferred citation and current citation status are documented in
+[`CITATION.md`](CITATION.md) and [`CITATION.cff`](CITATION.cff). The repository
+release DOI will be added after the `v5.0.0` tag is archived.
 
 Please do not describe this repository as a validated clinical biomarker or diagnostic package. See [`docs/Data_and_Code_Availability_20260803.md`](docs/Data_and_Code_Availability_20260803.md) and [`docs/REFERENCE_SOURCES_20260803.md`](docs/REFERENCE_SOURCES_20260803.md) for the release and source boundaries.
 
