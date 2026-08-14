@@ -1,0 +1,35 @@
+{
+  "status": "EXCLUDED_FROM_PRIMARY_MCI_HC",
+  "accession": "E-MTAB-6094",
+  "title": "Whole genome transcriptional analysis of Alzheimer's disease patients compared with age-matched non-demented controls",
+  "assay": "transcription profiling by array; Agilent array",
+  "organism": "Homo sapiens",
+  "organism_part": "blood",
+  "cell_type": "mononuclear cell",
+  "specimen_interpretation": "PBMC; not peripheral whole blood",
+  "biostudies_factor_sample_count": 35,
+  "factor_counts": {
+    "normal": 13,
+    "AD_CDR1": 15,
+    "AD_CDR3": 7
+  },
+  "mci_factor_count": 0,
+  "description_claimed_ad_count": 25,
+  "description_claimed_control_count": 15,
+  "metadata_count_conflict": true,
+  "subject_level_map_verified": false,
+  "grouped_expression_analysis_performed": false,
+  "decision": "Exclude from primary MCI-versus-HC endpoint: no MCI group, PBMC rather than whole blood, and a study-description versus factor-table count conflict.",
+  "allowed_role": "orthogonal PBMC AD-versus-control context after SDRF reconciliation",
+  "forbidden_claims": [
+    "independent MCI-versus-HC validation",
+    "whole-blood replication",
+    "clinical diagnostic validation"
+  ],
+  "official_source": "https://www.ebi.ac.uk/biostudies/api/v1/studies/E-MTAB-6094",
+  "record_page": "https://www.ebi.ac.uk/biostudies/studies/E-MTAB-6094",
+  "access_date": "2026-08-13",
+  "source_response_persisted": false,
+  "source_response_note": "The official API response was inspected on the access date. A subsequent raw-response save was interrupted by transient network refusal; no raw response hash is claimed.",
+  "audit_payload_sha256": "69e48ab0a0611eeb7c5c98fdffb8c716ced434b7685cd88aa9e555c06542754b"
+}

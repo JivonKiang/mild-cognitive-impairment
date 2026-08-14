@@ -1,0 +1,10 @@
+metric,value
+status,PASS
+count_columns,45
+geo_sample_records,135
+unique_join_count,45
+unmatched_count,0
+ambiguous_count,0
+whole_blood_true_count,45
+age_nonempty_unique_joins,45
+sex_nonempty_unique_joins,45

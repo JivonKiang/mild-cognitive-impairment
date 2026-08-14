@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "failure_count": 0,
+  "failures": [],
+  "checked": {
+    "scripts": 31,
+    "metrics_rows": 28,
+    "study_heldout_rows": 10,
+    "figures": 7,
+    "supplementary_figures": 1,
+    "domain_invariant_rows": 2,
+    "conformal_rows": 1,
+    "ood_rows": 9,
+    "ledger_rows": 6,
+    "candidate_registry_rows": 32,
+    "cross_cohort_effect_rows": 46300
+  }
+}

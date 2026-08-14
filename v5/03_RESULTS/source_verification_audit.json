@@ -1,0 +1,37 @@
+{
+  "audit_type": "offline_reproducible_cohort_paper_provenance",
+  "access_date": "2026-08-13",
+  "record_count": 6,
+  "verified_accession_and_paper_count": 5,
+  "pending_paper_link_accessions": [],
+  "gse140829_official_link_evidence": {
+    "gds_summary_sha256": "355c45c50a529ee29e30180acca420a9b1a0c6fc4ce06b436caa4db19855011e",
+    "gds_to_pubmed_elink_sha256": "f680907572144b6825a208c775b406814bb2f521595b8ab8ebf7dc8241f73e40",
+    "gds_to_pubmed_linked_pmids": [],
+    "official_metadata": {
+      "accession": "GSE140829",
+      "taxon": "Homo sapiens",
+      "gpl": "15988",
+      "gdstype": "Expression profiling by array"
+    }
+  },
+  "gse140829_title_matched_preprint": {
+    "doi": "10.1101/2019.12.13.875112",
+    "doi_url": "https://doi.org/10.1101/2019.12.13.875112",
+    "crossref_url": "https://api.crossref.org/works/10.1101/2019.12.13.875112",
+    "crossref_access_date": "2026-08-14",
+    "publication_type": "preprint",
+    "preprint_date": "2019-12-13",
+    "title_exact_match": true,
+    "geo_title": "Systems-level analysis of peripheral blood gene expression in dementia patients reveals an innate immune response shared across multiple disorders",
+    "boundary": "Exact title-matched preprint provenance only; no peer-reviewed-paper claim, subject-independence resolution, or validation upgrade.",
+    "official_metadata": {
+      "accession": "GSE140829",
+      "taxon": "Homo sapiens",
+      "gpl": "15988",
+      "gdstype": "Expression profiling by array"
+    }
+  },
+  "boundary": "This audit verifies metadata linkage and traceability only. It does not establish biological mechanism, causal effect, clinical utility, subject independence, or external predictive validation.",
+  "csv_sha256": "34f7326c82bee49db7545c493fde856ddcc0d523e334deb9bc722ecafb3fa4f8"
+}

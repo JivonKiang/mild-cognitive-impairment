@@ -1,0 +1,2 @@
+alpha,repeats,external_coverage_mean,external_coverage_q025,external_coverage_q975,mean_prediction_set_size,ambiguous_rate_mean,singleton_rate_mean,singleton_error_mean,external_auc_mean,external_auc_q025,external_auc_q975
+0.1,20,0.6689295039164491,0.6501305483028721,0.779373368146214,1.0685378590078327,0.06853785900783291,0.9314621409921673,0.36129279263750164,0.5010444764131152,0.4354410178025535,0.5590698615356949

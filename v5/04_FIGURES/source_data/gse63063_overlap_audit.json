@@ -1,0 +1,97 @@
+{
+  "status": "AUDITED_COMPLETE_DEVELOPMENT_AGGREGATE",
+  "decision": "EXCLUDE_FROM_INDEPENDENT_VALIDATION_AND_MODELING",
+  "decision_rationale": "The official GEO summary cache shows that every GSE63060 and GSE63061 GSM record is contained in GSE63063, with no additional GSE63063 GSM records. GSE63063 is a complete aggregate of the AddNeuroMed development series, not a new cohort.",
+  "gse63063_sample_count": 717,
+  "development_union_sample_count": 717,
+  "gse63063_extra_gsm_count": 0,
+  "development_union_missing_from_gse63063_count": 0,
+  "gse140829_shared_gsm_count": 0,
+  "gse140829_shared_gsm_examples": [],
+  "development_overlap": [
+    {
+      "development_series": "GSE63060",
+      "development_sample_count": 329,
+      "shared_gsm_count": 329,
+      "fraction_of_development_series": 1.0,
+      "fraction_of_gse63063": 0.45885634588563456,
+      "shared_gsm_examples": [
+        "GSM1539080",
+        "GSM1539081",
+        "GSM1539082",
+        "GSM1539083",
+        "GSM1539084",
+        "GSM1539085",
+        "GSM1539086",
+        "GSM1539087",
+        "GSM1539088",
+        "GSM1539089"
+      ]
+    },
+    {
+      "development_series": "GSE63061",
+      "development_sample_count": 388,
+      "shared_gsm_count": 388,
+      "fraction_of_development_series": 1.0,
+      "fraction_of_gse63063": 0.5411436541143654,
+      "shared_gsm_examples": [
+        "GSM1539409",
+        "GSM1539410",
+        "GSM1539411",
+        "GSM1539412",
+        "GSM1539413",
+        "GSM1539414",
+        "GSM1539415",
+        "GSM1539416",
+        "GSM1539417",
+        "GSM1539418"
+      ]
+    }
+  ],
+  "series": {
+    "GSE63060": {
+      "title": "Alzheimer, MCI and control samples from AddneuroMed Cohort (batch 1)",
+      "platform": "6947",
+      "sample_count": 329,
+      "sample_accession_hash": "5f42c2cd2013f5841ccd455c7f8788df8ac21332561aef35b7b950f2b0288ea9",
+      "pubmed_ids": [
+        "26343147"
+      ]
+    },
+    "GSE63061": {
+      "title": "Alzheimer, Mild Cognitive impairment and control samples from AddneuroMed Cohort (batch 2)",
+      "platform": "10558",
+      "sample_count": 388,
+      "sample_accession_hash": "5bfd354dd38856e79722806a278209b07fb5fe972df8ec593a3c9b310cc403cb",
+      "pubmed_ids": [
+        "26343147"
+      ]
+    },
+    "GSE63063": {
+      "title": "Alzheimer, Mild Cognitive impairment and control samples from AddneuroMed Cohort",
+      "platform": "10558;6947",
+      "sample_count": 717,
+      "sample_accession_hash": "e98c8137a112d0d0603ce8a3159bb84303603a13926511ca2e3db01c6f91873c",
+      "pubmed_ids": [
+        "26343147"
+      ]
+    },
+    "GSE140829": {
+      "title": "Systems-level analysis of peripheral blood gene expression in dementia patients reveals an innate immune response shared across multiple disorders [ad_mci]",
+      "platform": "15988",
+      "sample_count": 587,
+      "sample_accession_hash": "6ee3296bd360438c641c6f30a2516ccfa9a55e88d368a9580b1a0476682c95bf",
+      "pubmed_ids": []
+    }
+  },
+  "analysis_boundary": "No GSE63063 expression values or phenotype labels are used for model fitting, feature selection, preprocessing, calibration, thresholding, adaptation, or independent validation. The audit is an accession-level sample-identity check only.",
+  "official_sources": {
+    "GSE63060": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63060",
+    "GSE63061": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63061",
+    "GSE63063": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63063",
+    "GSE140829": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE140829"
+  },
+  "metadata_source": "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_public_discovery_20260812\\gds_mci_blood_summary.json",
+  "metadata_source_sha256": "6ce86fb4732e9b812e8d41d0d0bc83c57423afb77bdfcc273d1ff0f13bb2526c",
+  "metadata_source_modified_utc": "2026-08-12T03:02:52.443709Z"
+}

@@ -1,0 +1,69 @@
+{
+  "status": "BOUNDARY_AUDIT_ONLY",
+  "dataset": "GSE270454",
+  "assay": "whole-blood bulk RNA-seq",
+  "join_status": "VERIFIED_UNIQUE_45_OF_45",
+  "join_method": "count-column group and ordinal to descriptive GEO title group and terminal sample ordinal",
+  "n_rows": 45,
+  "mci_vs_hc_n": 35,
+  "label_counts": {
+    "HC": 25,
+    "MCI": 10,
+    "AD": 10
+  },
+  "frozen_panel_mapping": {
+    "dataset": "GSE270454",
+    "panel_size": 12,
+    "mapped": 10,
+    "missing": 2,
+    "mapping_fraction": 0.8333333333333334,
+    "missing_genes": "PHF15;LAT1-3TM",
+    "rna_samples": 45,
+    "HC": 25,
+    "MCI": 10,
+    "AD": 10,
+    "join_status": "verified_unique_45_of_45",
+    "join_audit": "E:\\20260805 Biomni\\MCI_PUBLIC_RELIABILITY_20260812_V5\\03_RESULTS\\gse270454_join_audit.json"
+  },
+  "mci_vs_hc_row_level_auc": 0.404,
+  "mci_vs_hc_auc_ci_low": 0.20400000000000001,
+  "mci_vs_hc_auc_ci_high": 0.6122613561553653,
+  "adjusted_contrasts": [
+    {
+      "dataset": "GSE270454",
+      "contrast": "MCI_vs_HC",
+      "estimate": -0.14701545762409202,
+      "se": 0.1632796973288754,
+      "p_value": 0.37330172527944916,
+      "n": 45,
+      "covariates": "age,sex"
+    },
+    {
+      "dataset": "GSE270454",
+      "contrast": "AD_vs_MCI",
+      "estimate": -0.2287662899800863,
+      "se": 0.19441841858065104,
+      "p_value": 0.24628228179243455,
+      "n": 45,
+      "covariates": "age,sex"
+    },
+    {
+      "dataset": "GSE270454",
+      "contrast": "AD_vs_HC",
+      "estimate": -0.3757817476041783,
+      "se": 0.1607502904839011,
+      "p_value": 0.024493480542922393,
+      "n": 45,
+      "covariates": "age,sex"
+    }
+  ],
+  "source_hashes": {
+    "E:\\20241004_MCI\\20260805_Human_Genomics\\03_REPRODUCIBILITY\\GSE270454_RNAseq-combined-counts-matrix.csv.gz": "24c114bc2b9b19620d82e71e5be1ded6ba5ca8fadf971a55de9c95bf79156b4a",
+    "E:\\20241004_MCI\\20260709\\mci_development_optimized_panel_20260722_161919\\development_locked_12_gene_panel.csv": "697d1332afc7c8c8638e8fe75f1a5a506f0042e11604a768a7f1386b0983da13",
+    "E:\\20260805 Biomni\\MCI_PUBLIC_RELIABILITY_20260812_V5\\01_DATA_AUDIT\\gse270454_join_mapping_local.csv": "ea5736d6642a7e7bbd02f455293c52f75d302f2c0dab91c3dac212a6bf990b9f"
+  },
+  "subject_independence": "official series describes 45 adults; this audit does not construct a new longitudinal or LODO model",
+  "allowed_claim": "The verified independent whole-blood frozen-score audit did not reproduce a positive MCI-versus-HC direction.",
+  "forbidden_claim": "This is not a validated complete-panel replication, clinical validation, or causal study.",
+  "online_metadata_verification": "verified against NCBI Entrez GEO summary for GSE270454 and PubMed PMID 40779089 on 2026-08-13"
+}

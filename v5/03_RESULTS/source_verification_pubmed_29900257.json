@@ -1,0 +1,173 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "29900257"
+    ],
+    "29900257": {
+      "uid": "29900257",
+      "pubdate": "2018 Jun",
+      "epubdate": "2018 Mar 26",
+      "source": "Data Brief",
+      "authors": [
+        {
+          "name": "Lim HW",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Saw WY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Feng L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lee YK",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mahendran R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Cheah IK",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Rawtaer I",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kumar AP",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kua EH",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mahendran R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tan EC",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Tan EC",
+      "title": "Dataset on gene expression in the elderly after Mindfulness Awareness Practice or Health Education Program.",
+      "sorttitle": "dataset on gene expression in the elderly after mindfulness awareness practice or health education program",
+      "volume": "18",
+      "issue": "",
+      "pages": "902-912",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101654995",
+      "issn": "2352-3409",
+      "essn": "2352-3409",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed",
+      "pubstatus": "258",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29900257"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC5996403"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC5996403;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.dib.2018.03.086"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S2352-3409(18)30299-3"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/01/16 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2018/03/15 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2018/03/20 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/06/15 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/06/15 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/06/15 06:01"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2018/03/26 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 7,
+      "fulljournalname": "Data in brief",
+      "elocationid": "doi: 10.1016/j.dib.2018.03.086",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/03/26 00:00",
+      "sortfirstauthor": "Lim HW",
+      "vernaculartitle": ""
+    }
+  }
+}

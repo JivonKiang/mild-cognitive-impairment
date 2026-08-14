@@ -1,0 +1,71 @@
+{
+  "allowed_claims": [
+    "Secondary independent cross-platform transport audit of a prespecified rank/z-score sensitivity.",
+    "GSE249477 diagnosis labels were used only to quantify the locked HC/MCI assessment."
+  ],
+  "assessment_cohort": "GSE249477",
+  "assessment_label_counts": {
+    "HC": 21,
+    "MCI": 20
+  },
+  "assessment_rows": 41,
+  "assessment_unit": "sample-row; 21 HC and 20 MCI",
+  "common_exact_case_canonicalized_gene_count": 11699,
+  "development": {
+    "datasets": [
+      "GSE63060",
+      "GSE63061"
+    ],
+    "label_counts": {
+      "HC": 139,
+      "MCI": 69
+    },
+    "row_count": 208
+  },
+  "exact_id_mapping": true,
+  "excluded_ad_rows": 21,
+  "forbidden_claims": [
+    "GSE249477 clinically validates the model.",
+    "The rank transform solves domain shift.",
+    "The results prove a generalizable MCI blood biomarker."
+  ],
+  "model_spec": {
+    "development_cv": "5-fold StratifiedKFold; AddNeuroMed only",
+    "final_model_fit_scope": "GSE63060 and GSE63061 HC/MCI rows only",
+    "pipeline": "SimpleImputer(median), SelectKBest(f_classif, k=min(200,n_features)), StandardScaler, LogisticRegression(C=0.2, ridge)",
+    "transformation": "within-sample rank then within-sample z-score"
+  },
+  "official_source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE249477",
+  "official_source_url_verification": "PENDING_ONLINE_VERIFICATION",
+  "series_title_count": 62,
+  "source_hashes": {
+    "E:\\20241004_MCI\\20250522\\GEO\\data\\GSE63060_data_matrix.csv": "40278d7bcc2790f5b79eb482419f27a17fb14e8ed61442ee2101cb76754dd646",
+    "E:\\20241004_MCI\\20260709\\data\\GSE63060_official_sample_labels.csv": "dd0d0d192487f49937eb44225844866ed2a676b8803e5aa9a4f24003febd0d28",
+    "E:\\20241004_MCI\\20260709\\data\\GSE63061_data_matrix.csv": "d4bb6df9c567cec4a453deaf51f3e55ef17ceb318dc493c4e99ce909e965eab0",
+    "E:\\20241004_MCI\\20260709\\data\\GSE63061_official_sample_labels.csv": "978f52abc58db7d5889e0949af66ece88619e28f86a273b57a83669c812b9725",
+    "E:\\20260805 Biomni\\MCI_PUBLIC_RELIABILITY_20260812_V5\\02_ANALYSIS\\run_gse249477_rank_transport.py": "6e3a2d91935bac263a72ecb6a5ddb2830c7596702c50d8bb7effdba40a54627c",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse249477_task9\\GSE249477_raw_count_normalize_04-10-2025.csv.gz": "4f8e0f8b75ebe4ec8aee6d88ce8e0a5a48f179f5fe7cb5981aafcae8701945cb",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse249477_task9\\GSE249477_series_matrix.txt.gz": "b7f5370b1c2665b53c821405cd0bbd6fafd82a2b4f0c899d7ce1ae03cda7fc03"
+  },
+  "status": "SECONDARY_INDEPENDENT_TRANSPORT_AUDIT",
+  "target_duplicate_gene_rows_collapsed": 1,
+  "target_gene_count_after_exact_symbol_median_collapse": 21491,
+  "target_identifier_audit": {
+    "exact_id_mapping": true,
+    "series_title_count": 62,
+    "target_duplicate_gene_rows_collapsed": 1,
+    "target_gene_count_after_exact_symbol_median_collapse": 21491,
+    "target_tpm_columns": 62,
+    "unique_title_ids": 62,
+    "unique_tpm_ids": 62
+  },
+  "target_labels_used_for_feature_selection": false,
+  "target_labels_used_for_fit": false,
+  "target_labels_used_for_threshold_or_calibration": false,
+  "target_labels_used_for_transform": false,
+  "target_labels_used_only_for_assessment": true,
+  "target_tpm_columns": 62,
+  "transformed_target_rows": 62,
+  "unique_title_ids": 62,
+  "unique_tpm_ids": 62
+}

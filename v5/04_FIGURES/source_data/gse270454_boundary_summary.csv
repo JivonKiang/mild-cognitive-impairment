@@ -1,0 +1,7 @@
+metric,value
+mci_vs_hc_row_level_auc,0.404
+mci_vs_hc_n,35
+panel_mapped,10
+panel_size,12
+join_unique_count,45
+join_status,verified_unique_45_of_45

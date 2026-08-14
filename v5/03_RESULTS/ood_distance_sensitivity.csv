@@ -1,0 +1,10 @@
+endpoint,cohort,distance_method,threshold_quantile,threshold_train,development_n,external_n,external_ood_n,external_inlier_n,external_ood_rate,external_error_rate_ood,external_error_rate_inlier,external_error_rate_difference_ood_minus_inlier,external_auc_assessment_only,external_labels_used_for_fit,external_labels_used_for_threshold
+stage_mci_vs_hc,GSE140829,mean_abs_standardized,0.9,1.121933102607727,208,383,369,14,0.9634464751958225,0.3523035230352303,0.2857142857142857,0.06658923732094463,0.4830366241083738,False,False
+stage_mci_vs_hc,GSE140829,mean_abs_standardized,0.95,1.177856206893921,208,383,329,54,0.8590078328981723,0.3495440729483283,0.35185185185185186,-0.002307778903523572,0.4830366241083738,False,False
+stage_mci_vs_hc,GSE140829,mean_abs_standardized,0.99,1.284251093864441,208,383,220,163,0.5744125326370757,0.36818181818181817,0.32515337423312884,0.04302844394868932,0.4830366241083738,False,False
+stage_mci_vs_hc,GSE140829,mahalanobis_ledoitwolf,0.9,12.325974464416504,208,383,383,0,1.0,0.34986945169712796,,,0.4830366241083738,False,False
+stage_mci_vs_hc,GSE140829,mahalanobis_ledoitwolf,0.95,12.519843101501465,208,383,383,0,1.0,0.34986945169712796,,,0.4830366241083738,False,False
+stage_mci_vs_hc,GSE140829,mahalanobis_ledoitwolf,0.99,12.791122436523438,208,383,383,0,1.0,0.34986945169712796,,,0.4830366241083738,False,False
+stage_mci_vs_hc,GSE140829,robust_pca_distance,0.9,1.3453351259231567,208,383,383,0,1.0,0.34986945169712796,,,0.4830366241083738,False,False
+stage_mci_vs_hc,GSE140829,robust_pca_distance,0.95,1.4155893325805664,208,383,383,0,1.0,0.34986945169712796,,,0.4830366241083738,False,False
+stage_mci_vs_hc,GSE140829,robust_pca_distance,0.99,1.694352149963379,208,383,383,0,1.0,0.34986945169712796,,,0.4830366241083738,False,False

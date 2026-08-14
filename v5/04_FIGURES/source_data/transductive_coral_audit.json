@@ -1,0 +1,57 @@
+{
+  "allowed_claims": [
+    "A batch-level transductive CORAL stress test used only target expression covariates before assessment.",
+    "Target diagnosis labels were accessed only after predictions were locked for descriptive assessment."
+  ],
+  "combat_status": "EXCLUDED_FROM_LABEL_FREE_ANALYSIS: target diagnosis is unavailable, so ComBat cannot protect the disease covariate during batch adjustment",
+  "coral_regularization": 0.001,
+  "deployment_scope": "batch_level_transductive_stress_test",
+  "forbidden_claims": [
+    "CORAL provides a deployable single-sample clinical model.",
+    "CORAL establishes external validation, causal biology, or a generalizable MCI biomarker.",
+    "ComBat was validly applied without target diagnosis information."
+  ],
+  "gse140829_unlabeled_input_audit": {
+    "diagnosis_metadata_accessed": false,
+    "mapped_gene_count": 13382,
+    "platform_probe_count": 47320,
+    "series_sample_count": 587
+  },
+  "gse249477_unlabeled_input_audit": {
+    "exact_id_mapping": true,
+    "series_title_count": 62,
+    "target_duplicate_gene_rows_collapsed": 1,
+    "target_gene_count_after_exact_symbol_median_collapse": 21491,
+    "target_tpm_columns": 62,
+    "unique_title_ids": 62,
+    "unique_tpm_ids": 62
+  },
+  "method": "source-fitted median imputation, StandardScaler and PCA followed by target-unlabeled latent CORAL alignment",
+  "method_source": "Sun et al., Return of Frustratingly Easy Domain Adaptation, AAAI 2016, DOI 10.1609/aaai.v30i1.10306",
+  "pca_components_requested": 50,
+  "post_coral_target_standardization": "target-unlabeled latent StandardScaler",
+  "shared_exact_symbol_count": 11575,
+  "source_development_rows": 208,
+  "source_hashes": {
+    "E:\\20241004_MCI\\20250522\\GEO\\data\\GSE63060_data_matrix.csv": "40278d7bcc2790f5b79eb482419f27a17fb14e8ed61442ee2101cb76754dd646",
+    "E:\\20241004_MCI\\20260709\\data\\GSE63060_official_sample_labels.csv": "dd0d0d192487f49937eb44225844866ed2a676b8803e5aa9a4f24003febd0d28",
+    "E:\\20241004_MCI\\20260709\\data\\GSE63061_data_matrix.csv": "d4bb6df9c567cec4a453deaf51f3e55ef17ceb318dc493c4e99ce909e965eab0",
+    "E:\\20241004_MCI\\20260709\\data\\GSE63061_official_sample_labels.csv": "978f52abc58db7d5889e0949af66ece88619e28f86a273b57a83669c812b9725",
+    "E:\\20260805 Biomni\\MCI_PUBLIC_RELIABILITY_20260812_V5\\02_ANALYSIS\\run_transductive_coral_audit.py": "851ae3cc8e84eec3e4a4da4689a56f14af9270da45c257d6a2bebd336c633852",
+    "E:\\20260805 Biomni\\MCI_PUBLIC_RELIABILITY_20260812_V5\\02_ANALYSIS\\transductive_alignment_core.py": "56e224f6e994b676c2deb21917b46f69eeba117e0ff739f47a52eaebe34044da",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse140829_task8\\GSE140829_series_matrix.fresh.txt.gz": "be4f08a2cb01fe912a764df66fd654dec70d9e1ecd36bded00b675b27e7f83f3",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse140829_task9\\GPL15988_full.txt": "6b270524044cb432724c50092c0b87cdc6fa6564b50a13aa6b27ae134fdacf03"
+  },
+  "source_label_counts": {
+    "HC": 139,
+    "MCI": 69
+  },
+  "status": "TRANSDUCTIVE_CORAL_RESULTS_GENERATED",
+  "target_labels_used_for_alignment": false,
+  "target_labels_used_for_model_selection": false,
+  "target_labels_used_only_for_assessment": true,
+  "target_preassessment_rows": {
+    "GSE140829": 587,
+    "GSE249477": 62
+  }
+}

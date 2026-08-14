@@ -1,0 +1,14 @@
+{
+  "dataset": "GSE270454",
+  "panel_size": 12,
+  "mapped": 10,
+  "missing": 2,
+  "mapping_fraction": 0.8333333333333334,
+  "missing_genes": "PHF15;LAT1-3TM",
+  "rna_samples": 45,
+  "HC": 25,
+  "MCI": 10,
+  "AD": 10,
+  "join_status": "verified_unique_45_of_45",
+  "join_audit": "E:\\20260805 Biomni\\MCI_PUBLIC_RELIABILITY_20260812_V5\\03_RESULTS\\gse270454_join_audit.json"
+}

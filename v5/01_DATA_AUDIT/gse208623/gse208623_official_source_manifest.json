@@ -1,0 +1,19 @@
+{
+  "sources": {
+    "annotation": {
+      "expected_bytes": 169013044,
+      "header": "Illumina, Inc.,,,,,,,,,,,,,,,,,,,,,,,,,",
+      "logical_name": "annotation",
+      "sha256": "bcb11dc3de47b509864238ca2f2d24a505684624b4a18e362597756da6f3bea1",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL21nnn/GPL21145/suppl/GPL21145_MethylationEPIC_15073387_v-1-0.csv.gz"
+    },
+    "beta": {
+      "expected_bytes": 363136110,
+      "header": ",10,12,13,14,17,18,20,22,25,27,29,31,35,36,38,46,47,48,51,54,705,707,708,709,711,712,713,714,715,720,721,724,727,728,735,736,737,738,740,718,203,204,205,206,208,209,210,211,212,213,215,217,218,221,222,223,224,226,227,229",
+      "logical_name": "beta",
+      "sha256": "bf6c3f81bb676008a6c02630858b95a481ff5842200ee75f260146907a3500b3",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE208nnn/GSE208623/suppl/GSE208623_Norm_beta.csv.gz"
+    }
+  },
+  "status": "COMPLETE"
+}

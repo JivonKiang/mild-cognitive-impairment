@@ -1,0 +1,39 @@
+{
+  "status": "POSTLOCK_COMPOSITION_SOURCE_REGISTRY_V1",
+  "scope": "Diagnosis labels and pre-existing prediction artifacts accessed only after the anonymous MCPcounter score lock.",
+  "label_sources": {
+    "GSE63060": {
+      "path": "E:\\20241004_MCI\\20260709\\data\\GSE63060_official_sample_labels.csv",
+      "sha256": "dd0d0d192487f49937eb44225844866ed2a676b8803e5aa9a4f24003febd0d28",
+      "purpose": "official diagnosis labels used only for post-lock MCI-versus-HC assessment"
+    },
+    "GSE63061": {
+      "path": "E:\\20241004_MCI\\20260709\\data\\GSE63061_official_sample_labels.csv",
+      "sha256": "978f52abc58db7d5889e0949af66ece88619e28f86a273b57a83669c812b9725",
+      "purpose": "official diagnosis labels used only for post-lock MCI-versus-HC assessment"
+    },
+    "GSE140829": {
+      "path": "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse140829_task8\\GSE140829_series_matrix.fresh.txt.gz",
+      "sha256": "be4f08a2cb01fe912a764df66fd654dec70d9e1ecd36bded00b675b27e7f83f3",
+      "purpose": "series metadata containing diagnosis labels; used only for post-lock sample-row assessment"
+    },
+    "GSE249477": {
+      "path": "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse249477_task9\\GSE249477_series_matrix.txt.gz",
+      "sha256": "b7f5370b1c2665b53c821405cd0bbd6fafd82a2b4f0c899d7ce1ae03cda7fc03",
+      "purpose": "series titles containing diagnosis labels; used only for post-lock MCI-versus-HC assessment"
+    }
+  },
+  "prediction_artifacts": {
+    "predictions": {
+      "path": "03_RESULTS/cross_study_stable_predictions_anonymized.csv",
+      "sha256": "305174f8d18694e17e8f4b3d819477664987550adb1de4b628adf116857b55d3",
+      "purpose": "pre-existing locked predictions eligible only for exact-mapping descriptive correlations"
+    },
+    "audit": {
+      "path": "03_RESULTS/cross_study_stable_audit.json",
+      "sha256": "1dfb9e23544b8b5af3c4e14adbf353ca536fde9ee9ed69953d88d7e226d5b7a0",
+      "required_status": "CROSS_STUDY_STABLE_SIGNAL_AUDIT",
+      "purpose": "provenance audit accompanying the locked prediction table"
+    }
+  }
+}

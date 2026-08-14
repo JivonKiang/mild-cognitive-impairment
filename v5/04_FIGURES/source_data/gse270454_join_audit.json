@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "dataset": "GSE270454",
+  "join_method": "count-column group and ordinal to unique GEO title/source/characteristics group and ordinal token",
+  "count_columns": 45,
+  "geo_sample_records": 135,
+  "geo_whole_blood_records": 45,
+  "unique_join_count": 45,
+  "unmatched_count": 0,
+  "ambiguous_count": 0,
+  "count_columns_by_group": {
+    "ASM": 11,
+    "ASO": 14,
+    "MCI": 10,
+    "AD": 10
+  },
+  "unique_joins_by_group": {
+    "ASM": 11,
+    "ASO": 14,
+    "MCI": 10,
+    "AD": 10
+  },
+  "geo_group_token_counts": {
+    "ASM": 11,
+    "ASO": 14,
+    "MCI": 10,
+    "AD": 10
+  },
+  "group_or_ordinal_conflict_records": 0,
+  "all_matched_source_whole_blood": true,
+  "whole_blood_true_count": 45,
+  "age_nonempty_unique_joins": 45,
+  "sex_nonempty_unique_joins": 45,
+  "source_hashes": {
+    "counts": "24c114bc2b9b19620d82e71e5be1ded6ba5ca8fadf971a55de9c95bf79156b4a",
+    "series_matrix": "10793f1dbd97f0960a9df40a48734ca6a25e1e688829bbaf39f853a431345138"
+  },
+  "sample_level_identifiers_in_formal_summary": false
+}

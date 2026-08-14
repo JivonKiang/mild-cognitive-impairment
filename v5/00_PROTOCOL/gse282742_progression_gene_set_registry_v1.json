@@ -1,0 +1,32 @@
+{
+  "registry_version": "v1",
+  "analysis": "exploratory preranked Reactome enrichment from the age/sex-adjusted representative-record P-MCI-minus-S-MCI statistic",
+  "claim_boundary": "Exploratory competitive pathway association only; not independent predictive validation, not conversion prediction, and not causal evidence.",
+  "reactome_gmt": {
+    "path": "01_DATA_AUDIT/reference/ReactomePathways_gmt_current/ReactomePathways.gmt",
+    "source_url": "https://reactome.org/download/current/ReactomePathways.gmt.zip",
+    "access_date": "2026-08-13",
+    "archive_sha256": "8c1dbc8578431da5d2d5118262718c60b553a9be3398e93658daa069e4a9afd4",
+    "gmt_sha256": "89983d5c1f0af11c52edfeee7323eb425580ac6281d387a528562ab1787ce56b",
+    "http_last_modified": "2026-06-21T06:23:59Z"
+  },
+  "mapping": {
+    "path": "01_DATA_AUDIT/reference/gse282742_dual_source_ensembl_symbol_map_20260813.csv",
+    "sha256": "f2c03bb5dbb74e54ce962d6f8566e2ef537970b843aa1add4f2dacf4de91d27c",
+    "row_count": 25860,
+    "rule": "retain only one-to-one local annotation mappings whose symbol exactly matches the MyGene.info human Ensembl-gene lookup snapshot",
+    "local_annotation_path": "E:/20241004_MCI/20250816 revise/GEO/Human.GRCh38.p13.annot.tsv.gz",
+    "local_annotation_sha256": "a0b6ff49b0851334c709edbd52ae9c80ae998d66d9a30185de364ffb4a59efea",
+    "mygene_snapshot_path": "01_DATA_AUDIT/reference/gse282742_mygene_ensembl_symbol_snapshot_20260813.json",
+    "mygene_snapshot_sha256": "693efa5d20b2e15d69969a9eabfba881b6f24067fe24d01c4f1a627b01f78e93",
+    "mygene_source_url": "https://mygene.info/v3/query",
+    "mygene_access_date": "2026-08-13"
+  },
+  "statistics": {
+    "ranking": "age/sex-adjusted t statistic, P-MCI minus S-MCI; one representative metadata-order record per subject",
+    "test": "unweighted running-sum enrichment score plus two-sided asymptotic Mann-Whitney competitive rank-distribution test",
+    "seed": 28274213,
+    "pathway_overlap_size_range": [15, 500],
+    "multiplicity": "Benjamini-Hochberg across tested Reactome pathways"
+  }
+}

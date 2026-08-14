@@ -1,0 +1,97 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "25",
+    "retmax": "25",
+    "retstart": "0",
+    "idlist": [
+      "200303974",
+      "200324041",
+      "200276957",
+      "200270454",
+      "200251849",
+      "200208623",
+      "200216918",
+      "200201483",
+      "200201482",
+      "200201481",
+      "200190540",
+      "200184264",
+      "200153712",
+      "200144858",
+      "200140830",
+      "200140829",
+      "200127711",
+      "200135051",
+      "200134577",
+      "200134576",
+      "200113704",
+      "200087582",
+      "200046579",
+      "200038542",
+      "200018309"
+    ],
+    "translationset": [
+      {
+        "from": "Homo sapiens[Organism]",
+        "to": "\"Homo sapiens\"[Organism]"
+      }
+    ],
+    "translationstack": [
+      {
+        "term": "aMCI[All Fields]",
+        "field": "All Fields",
+        "count": "5",
+        "explode": "N"
+      },
+      {
+        "term": "\"cognitive impairment\"[All Fields]",
+        "field": "All Fields",
+        "count": "1521",
+        "explode": "N"
+      },
+      "OR",
+      "GROUP",
+      {
+        "term": "whole blood[All Fields]",
+        "field": "All Fields",
+        "count": "289463",
+        "explode": "N"
+      },
+      {
+        "term": "peripheral blood[All Fields]",
+        "field": "All Fields",
+        "count": "298167",
+        "explode": "N"
+      },
+      "OR",
+      "GROUP",
+      "AND",
+      {
+        "term": "\"Homo sapiens\"[Organism]",
+        "field": "Organism",
+        "count": "4687408",
+        "explode": "Y"
+      },
+      "AND",
+      "GROUP",
+      {
+        "term": "GSE[ETYP]",
+        "field": "ETYP",
+        "count": "293250",
+        "explode": "N"
+      },
+      "AND"
+    ],
+    "querytranslation": "((aMCI[All Fields] OR \"cognitive impairment\"[All Fields]) AND (whole blood[All Fields] OR peripheral blood[All Fields]) AND \"Homo sapiens\"[Organism]) AND GSE[ETYP]",
+    "errorlist": {
+      "phrasesnotfound": [
+        "amnestic MCI[All Fields]"
+      ],
+      "fieldsnotfound": []
+    }
+  }
+}

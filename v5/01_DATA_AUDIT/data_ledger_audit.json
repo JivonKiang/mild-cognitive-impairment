@@ -1,0 +1,50 @@
+{
+  "common_dev_exact_symbol_gene_count": 17154,
+  "gse108215_paired_intervention_audit_only": true,
+  "gse140829_platform_audit": {
+    "label_counts": {
+      "AD": 204,
+      "HC": 249,
+      "MCI": 134
+    },
+    "locked_symbols_present": [
+      "GPI",
+      "PHF15",
+      "VAT1",
+      "EIF3B",
+      "UCP2",
+      "C22ORF39",
+      "USP38",
+      "PRDM10",
+      "RP2",
+      "GCA"
+    ],
+    "mapped_gene_count": 13382,
+    "missing_locked_symbols": [
+      "LAT1-3TM",
+      "ZSWIM6"
+    ],
+    "platform_probe_count": 47320,
+    "retained_sample_count": 587,
+    "series_sample_count": 587
+  },
+  "gse249477_official_title_labels": true,
+  "gse282742_progression_sample_and_subject_units_separated": true,
+  "ledger": "data_ledger.csv",
+  "source_hashes": {
+    "E:\\20241004_MCI\\20250522\\GEO\\data\\GSE63060_data_matrix.csv": "40278d7bcc2790f5b79eb482419f27a17fb14e8ed61442ee2101cb76754dd646",
+    "E:\\20241004_MCI\\20260709\\data\\GSE63060_official_sample_labels.csv": "dd0d0d192487f49937eb44225844866ed2a676b8803e5aa9a4f24003febd0d28",
+    "E:\\20241004_MCI\\20260709\\data\\GSE63061_data_matrix.csv": "d4bb6df9c567cec4a453deaf51f3e55ef17ceb318dc493c4e99ce909e965eab0",
+    "E:\\20241004_MCI\\20260709\\data\\GSE63061_official_sample_labels.csv": "978f52abc58db7d5889e0949af66ece88619e28f86a273b57a83669c812b9725",
+    "E:\\20241004_MCI\\20260709\\external_public_data_20260721_151749\\GSE282742_Expected_count.full.gz": "f0f60bf731e80946b482ca3cf45765bba20830499cab3e2906ac655d087f5197",
+    "E:\\20241004_MCI\\20260709\\external_public_data_20260721_151749\\GSE282742_sample_subject_audit.csv": "a5bd35b22f89d8146a3df99666bcba20657d4f062a077897faf35eb6e4c097c5",
+    "E:\\20260805 Biomni\\MCI_PUBLIC_RELIABILITY_20260812_V5\\03_RESULTS\\gse108215_paired_audit.json": "eab32405024135d01ae564a0c36a72d7e70d856617ad8cde752f2e763a6b3ccb",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse108215_task10\\GPL570.annot.complete.gz": "d7cd44352127b1e34f3a720ebea86093ef255a38f1612a85a2962b71bde8f394",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse108215_task10\\GSE108215_series_matrix.complete.txt.gz": "2624e0f326250d4947ed215bd231fa28e0b6b98f01ffa6d83bc583d40142f6da",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse140829_task8\\GSE140829_series_matrix.fresh.txt.gz": "be4f08a2cb01fe912a764df66fd654dec70d9e1ecd36bded00b675b27e7f83f3",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse140829_task9\\GPL15988_full.txt": "6b270524044cb432724c50092c0b87cdc6fa6564b50a13aa6b27ae134fdacf03",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse249477_task9\\GSE249477_raw_count_normalize_04-10-2025.csv.gz": "4f8e0f8b75ebe4ec8aee6d88ce8e0a5a48f179f5fe7cb5981aafcae8701945cb",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse249477_task9\\GSE249477_series_matrix.txt.gz": "b7f5370b1c2665b53c821405cd0bbd6fafd82a2b4f0c899d7ce1ae03cda7fc03"
+  },
+  "status": "AUDITED"
+}

@@ -1,0 +1,117 @@
+{
+  "status": "AUDITED_NONINDEPENDENT_CANDIDATES",
+  "decision": {
+    "GSE140829": "retained as the existing external transport assessment",
+    "GSE140830": "excluded from primary MCI-versus-HC validation; no MCI samples and same parent study family",
+    "GSE140831": "excluded as non-independent; contains all GSE140829 and GSE140830 GSM records"
+  },
+  "series": {
+    "GSE140829": {
+      "title": "Systems-level analysis of peripheral blood gene expression in dementia patients reveals an innate immune response shared across multiple disorders [ad_mci]",
+      "platform": "15988",
+      "assay": "Expression profiling by array",
+      "sample_count": 587,
+      "label_counts": {
+        "AD": 204,
+        "Control": 249,
+        "MCI": 134
+      },
+      "sample_accession_hash": "6ee3296bd360438c641c6f30a2516ccfa9a55e88d368a9580b1a0476682c95bf"
+    },
+    "GSE140830": {
+      "title": "Systems-level analysis of peripheral blood gene expression in dementia patients reveals an innate immune response shared across multiple disorders [ftd]",
+      "platform": "15988",
+      "assay": "Expression profiling by array",
+      "sample_count": 542,
+      "label_counts": {
+        "CBS": 36,
+        "Control": 281,
+        "PSP": 54,
+        "bvFTD": 80,
+        "nfvPPA": 47,
+        "svPPA": 44
+      },
+      "sample_accession_hash": "39594088108cd6b216aad2259d71e7dcf55fcd1235c93d8e3ffaee66eebaecda"
+    },
+    "GSE140831": {
+      "title": "Systems-level analysis of peripheral blood gene expression in dementia patients reveals an innate immune response shared across multiple disorders",
+      "platform": "15988",
+      "assay": "Expression profiling by array",
+      "sample_count": 1129,
+      "label_counts": {
+        "AD": 204,
+        "CBS": 36,
+        "Control": 530,
+        "MCI": 134,
+        "PSP": 54,
+        "bvFTD": 80,
+        "nfvPPA": 47,
+        "svPPA": 44
+      },
+      "sample_accession_hash": "10476fca2f1f9f36bd1c16e896c7127f188ccdc1e547eb5cabb33c441b5a5c27"
+    }
+  },
+  "pairwise_overlap": [
+    {
+      "left": "GSE140829",
+      "right": "GSE140830",
+      "left_sample_count": 587,
+      "right_sample_count": 542,
+      "shared_gsm_count": 0,
+      "shared_fraction_of_left": 0.0,
+      "shared_fraction_of_right": 0.0,
+      "shared_gsm_examples": []
+    },
+    {
+      "left": "GSE140829",
+      "right": "GSE140831",
+      "left_sample_count": 587,
+      "right_sample_count": 1129,
+      "shared_gsm_count": 587,
+      "shared_fraction_of_left": 1.0,
+      "shared_fraction_of_right": 0.5199291408325952,
+      "shared_gsm_examples": [
+        "GSM4187187",
+        "GSM4187188",
+        "GSM4187189",
+        "GSM4187190",
+        "GSM4187191",
+        "GSM4187192",
+        "GSM4187193",
+        "GSM4187194",
+        "GSM4187195",
+        "GSM4187196"
+      ]
+    },
+    {
+      "left": "GSE140830",
+      "right": "GSE140831",
+      "left_sample_count": 542,
+      "right_sample_count": 1129,
+      "shared_gsm_count": 542,
+      "shared_fraction_of_left": 1.0,
+      "shared_fraction_of_right": 0.4800708591674048,
+      "shared_gsm_examples": [
+        "GSM4187774",
+        "GSM4187775",
+        "GSM4187776",
+        "GSM4187777",
+        "GSM4187778",
+        "GSM4187779",
+        "GSM4187780",
+        "GSM4187781",
+        "GSM4187782",
+        "GSM4187783"
+      ]
+    }
+  ],
+  "interpretation_boundary": "GSE140830 and GSE140831 must not be counted as independent replication. GSE140831 is an aggregate/overlapping series, while GSE140830 has no MCI label. The overlap audit uses no expression values or phenotype labels for model fitting, thresholding, calibration, feature selection, or adaptation.",
+  "official_sources": {
+    "GSE140829": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE140829",
+    "GSE140830": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE140830",
+    "GSE140831": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE140831"
+  },
+  "metadata_source": "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_public_discovery_20260812\\gds_mci_blood_summary.json",
+  "metadata_source_sha256": "6ce86fb4732e9b812e8d41d0d0bc83c57423afb77bdfcc273d1ff0f13bb2526c",
+  "access_date": "2026-08-13"
+}

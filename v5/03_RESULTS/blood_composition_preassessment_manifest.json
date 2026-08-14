@@ -1,0 +1,90 @@
+{
+  "status": "MCP_COUNTER_SOURCE_BRIDGE_PREASSESSMENT",
+  "method": "MCPcounter",
+  "assessment_scope": "all expression rows before diagnosis assessment",
+  "diagnosis_labels_accessed": false,
+  "target_labels_used_for_mapping": false,
+  "target_labels_used_for_scoring": false,
+  "target_labels_used_for_preprocessing": false,
+  "target_labels_used_for_method_selection": false,
+  "diagnostic_model_modified": false,
+  "xcell": {
+    "status": "BLOCKED",
+    "reason": "project-local xCell installation remains unavailable because R dependency retrieval is TLS-blocked"
+  },
+  "mcpcounter_source_bridge": {
+    "repository": "https://github.com/ebecht/MCPcounter",
+    "commit": "b6eac73e91c246fcff0bb1a5c68a816cd588fc48",
+    "source_api_url": "https://api.github.com/repos/ebecht/MCPcounter/git/blobs/bd6d2cc533f7635698eb870e8a3331a0a36fae82",
+    "source_blob_sha": "bd6d2cc533f7635698eb870e8a3331a0a36fae82",
+    "source_blob_sha256": "f672830d5e98685a28a59c9c50aca724f05ecb675cea75cb3c7d0e20c1254260",
+    "genes_api_url": "https://api.github.com/repos/ebecht/MCPcounter/git/blobs/a37f70367d3dc83260e966e651c5d618dbf84c7c",
+    "genes_blob_sha": "a37f70367d3dc83260e966e651c5d618dbf84c7c",
+    "genes_blob_sha256": "408f6c5d02c8f9bd2f1599c598367881853520934f8ce398a4886a8b296922bb",
+    "upstream_function_invoked": "appendSignatures",
+    "bridge_implementation": "unmodified upstream function and fixed CC0 genes.txt sourced only in a disposable temporary directory",
+    "upstream_source_or_signatures_persisted_in_project": false
+  },
+  "input_hashes": {
+    "E:\\20241004_MCI\\20250522\\GEO\\data\\GSE63060_data_matrix.csv": "40278d7bcc2790f5b79eb482419f27a17fb14e8ed61442ee2101cb76754dd646",
+    "E:\\20241004_MCI\\20260709\\data\\GSE63061_data_matrix.csv": "d4bb6df9c567cec4a453deaf51f3e55ef17ceb318dc493c4e99ce909e965eab0",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse140829_task8\\GSE140829_series_matrix.fresh.txt.gz": "be4f08a2cb01fe912a764df66fd654dec70d9e1ecd36bded00b675b27e7f83f3",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse140829_task9\\GPL15988_full.txt": "6b270524044cb432724c50092c0b87cdc6fa6564b50a13aa6b27ae134fdacf03",
+    "E:\\AI_Research_Assistant\\data\\operations\\run_bundles\\mci_gse249477_task9\\GSE249477_raw_count_normalize_04-10-2025.csv.gz": "4f8e0f8b75ebe4ec8aee6d88ce8e0a5a48f179f5fe7cb5981aafcae8701945cb"
+  },
+  "expression_gene_counts": {
+    "GSE63060": 21695,
+    "GSE63061": 22335,
+    "GSE140829": 22371,
+    "GSE249477": 21489
+  },
+  "gse249477_label_free_loader_audit": {
+    "metadata_files_accessed": [],
+    "target_tpm_columns": 62,
+    "unique_tpm_ids": 62,
+    "target_gene_count_after_exact_symbol_mean_collapse": 21489,
+    "target_duplicate_gene_rows_collapsed": 3
+  },
+  "cohort_preassessment": {
+    "GSE63060": {
+      "expected_rows": 329,
+      "scored_rows": 329,
+      "score_column_count": 10
+    },
+    "GSE63061": {
+      "expected_rows": 388,
+      "scored_rows": 388,
+      "score_column_count": 10
+    },
+    "GSE140829": {
+      "expected_rows": 587,
+      "scored_rows": 587,
+      "score_column_count": 10
+    },
+    "GSE249477": {
+      "expected_rows": 62,
+      "scored_rows": 62,
+      "score_column_count": 10
+    }
+  },
+  "anonymized_output": {
+    "path": "blood_composition_preassessment_scores_anonymized.csv",
+    "sha256": "a2240241aa3a230a75e9a6879258fda8b06e285b380c88da0380801528f907cd",
+    "row_count": 1366,
+    "columns": [
+      "cohort",
+      "assessment_index",
+      "B lineage",
+      "CD8 T cells",
+      "Cytotoxic lymphocytes",
+      "Endothelial cells",
+      "Fibroblasts",
+      "Monocytic lineage",
+      "Myeloid dendritic cells",
+      "Neutrophils",
+      "NK cells",
+      "T cells"
+    ],
+    "original_sample_identifiers_persisted": false
+  }
+}
